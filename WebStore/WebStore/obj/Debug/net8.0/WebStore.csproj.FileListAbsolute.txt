@@ -1,0 +1,1148 @@
+F:\Projec\C#\backend\WebStore\WebStore\obj\Debug\net8.0\WebStore.csproj.AssemblyReference.cache
+F:\Projec\C#\backend\WebStore\WebStore\obj\Debug\net8.0\WebStore.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projec\C#\backend\WebStore\WebStore\obj\Debug\net8.0\WebStore.AssemblyInfoInputs.cache
+F:\Projec\C#\backend\WebStore\WebStore\obj\Debug\net8.0\WebStore.AssemblyInfo.cs
+F:\Projec\C#\backend\WebStore\WebStore\obj\Debug\net8.0\WebStore.csproj.CoreCompileInputs.cache
+F:\Projec\C#\backend\WebStore\WebStore\obj\Debug\net8.0\WebStore.MvcApplicationPartsAssemblyInfo.cs
+F:\Projec\C#\backend\WebStore\WebStore\obj\Debug\net8.0\WebStore.MvcApplicationPartsAssemblyInfo.cache
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\appsettings.Development.json
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\appsettings.json
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\WebStore.exe
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\WebStore.deps.json
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\WebStore.runtimeconfig.json
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\WebStore.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\WebStore.pdb
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\Azure.Core.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\Azure.Identity.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\Humanizer.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\Microsoft.OpenApi.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\Mono.TextTemplating.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\System.CodeDom.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\System.Composition.Convention.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\System.Composition.Hosting.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\System.Composition.Runtime.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\System.Composition.TypedParts.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\System.Drawing.Common.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\System.Memory.Data.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\System.Runtime.Caching.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\System.Security.Permissions.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\System.Windows.Extensions.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+F:\Projec\C#\backend\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+F:\Projec\C#\backend\WebStore\WebStore\obj\Debug\net8.0\staticwebassets.build.json
+F:\Projec\C#\backend\WebStore\WebStore\obj\Debug\net8.0\staticwebassets.development.json
+F:\Projec\C#\backend\WebStore\WebStore\obj\Debug\net8.0\staticwebassets\msbuild.WebStore.Microsoft.AspNetCore.StaticWebAssets.props
+F:\Projec\C#\backend\WebStore\WebStore\obj\Debug\net8.0\staticwebassets\msbuild.build.WebStore.props
+F:\Projec\C#\backend\WebStore\WebStore\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebStore.props
+F:\Projec\C#\backend\WebStore\WebStore\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebStore.props
+F:\Projec\C#\backend\WebStore\WebStore\obj\Debug\net8.0\staticwebassets.pack.json
+F:\Projec\C#\backend\WebStore\WebStore\obj\Debug\net8.0\scopedcss\bundle\WebStore.styles.css
+F:\Projec\C#\backend\WebStore\WebStore\obj\Debug\net8.0\WebStore.csproj.Up2Date
+F:\Projec\C#\backend\WebStore\WebStore\obj\Debug\net8.0\WebStore.dll
+F:\Projec\C#\backend\WebStore\WebStore\obj\Debug\net8.0\refint\WebStore.dll
+F:\Projec\C#\backend\WebStore\WebStore\obj\Debug\net8.0\WebStore.pdb
+F:\Projec\C#\backend\WebStore\WebStore\obj\Debug\net8.0\WebStore.genruntimeconfig.cache
+F:\Projec\C#\backend\WebStore\WebStore\obj\Debug\net8.0\ref\WebStore.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\appsettings.Development.json
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\appsettings.json
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\WebStore.exe
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\WebStore.deps.json
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\WebStore.runtimeconfig.json
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\WebStore.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\WebStore.pdb
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\Azure.Core.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\Azure.Identity.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\Humanizer.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\Microsoft.OpenApi.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\Mono.TextTemplating.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\System.CodeDom.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\System.Composition.Convention.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\System.Composition.Hosting.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\System.Composition.Runtime.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\System.Composition.TypedParts.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\System.Drawing.Common.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\System.Memory.Data.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\System.Runtime.Caching.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\System.Security.Permissions.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\System.Windows.Extensions.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+F:\Projec\Github\webstore\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+F:\Projec\Github\webstore\WebStore\WebStore\obj\Debug\net8.0\WebStore.csproj.AssemblyReference.cache
+F:\Projec\Github\webstore\WebStore\WebStore\obj\Debug\net8.0\WebStore.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projec\Github\webstore\WebStore\WebStore\obj\Debug\net8.0\WebStore.AssemblyInfoInputs.cache
+F:\Projec\Github\webstore\WebStore\WebStore\obj\Debug\net8.0\WebStore.AssemblyInfo.cs
+F:\Projec\Github\webstore\WebStore\WebStore\obj\Debug\net8.0\WebStore.csproj.CoreCompileInputs.cache
+F:\Projec\Github\webstore\WebStore\WebStore\obj\Debug\net8.0\WebStore.MvcApplicationPartsAssemblyInfo.cs
+F:\Projec\Github\webstore\WebStore\WebStore\obj\Debug\net8.0\WebStore.MvcApplicationPartsAssemblyInfo.cache
+F:\Projec\Github\webstore\WebStore\WebStore\obj\Debug\net8.0\WebStore.sourcelink.json
+F:\Projec\Github\webstore\WebStore\WebStore\obj\Debug\net8.0\staticwebassets.build.json
+F:\Projec\Github\webstore\WebStore\WebStore\obj\Debug\net8.0\staticwebassets.development.json
+F:\Projec\Github\webstore\WebStore\WebStore\obj\Debug\net8.0\staticwebassets\msbuild.WebStore.Microsoft.AspNetCore.StaticWebAssets.props
+F:\Projec\Github\webstore\WebStore\WebStore\obj\Debug\net8.0\staticwebassets\msbuild.build.WebStore.props
+F:\Projec\Github\webstore\WebStore\WebStore\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebStore.props
+F:\Projec\Github\webstore\WebStore\WebStore\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebStore.props
+F:\Projec\Github\webstore\WebStore\WebStore\obj\Debug\net8.0\staticwebassets.pack.json
+F:\Projec\Github\webstore\WebStore\WebStore\obj\Debug\net8.0\scopedcss\bundle\WebStore.styles.css
+F:\Projec\Github\webstore\WebStore\WebStore\obj\Debug\net8.0\WebStore.csproj.Up2Date
+F:\Projec\Github\webstore\WebStore\WebStore\obj\Debug\net8.0\WebStore.dll
+F:\Projec\Github\webstore\WebStore\WebStore\obj\Debug\net8.0\refint\WebStore.dll
+F:\Projec\Github\webstore\WebStore\WebStore\obj\Debug\net8.0\WebStore.pdb
+F:\Projec\Github\webstore\WebStore\WebStore\obj\Debug\net8.0\WebStore.genruntimeconfig.cache
+F:\Projec\Github\webstore\WebStore\WebStore\obj\Debug\net8.0\ref\WebStore.dll
+E:\Download\WebStore\WebStore\obj\Debug\net8.0\WebStore.csproj.AssemblyReference.cache
+E:\Download\WebStore\WebStore\obj\Debug\net8.0\WebStore.GeneratedMSBuildEditorConfig.editorconfig
+E:\Download\WebStore\WebStore\obj\Debug\net8.0\WebStore.AssemblyInfoInputs.cache
+E:\Download\WebStore\WebStore\obj\Debug\net8.0\WebStore.AssemblyInfo.cs
+E:\Download\WebStore\WebStore\obj\Debug\net8.0\WebStore.csproj.CoreCompileInputs.cache
+E:\Download\WebStore\WebStore\obj\Debug\net8.0\WebStore.MvcApplicationPartsAssemblyInfo.cs
+E:\Download\WebStore\WebStore\obj\Debug\net8.0\WebStore.MvcApplicationPartsAssemblyInfo.cache
+E:\Download\WebStore\WebStore\obj\Debug\net8.0\WebStore.dll
+E:\Download\WebStore\WebStore\obj\Debug\net8.0\refint\WebStore.dll
+E:\Download\WebStore\WebStore\obj\Debug\net8.0\WebStore.pdb
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\appsettings.Development.json
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\appsettings.json
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\WebStore.exe
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\WebStore.deps.json
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\WebStore.runtimeconfig.json
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\WebStore.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\WebStore.pdb
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\Azure.Core.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\Azure.Identity.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\Humanizer.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\Mono.TextTemplating.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\System.CodeDom.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\System.Composition.Convention.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\System.Composition.Hosting.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\System.Composition.Runtime.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\System.Composition.TypedParts.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\System.Drawing.Common.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\System.Memory.Data.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\System.Runtime.Caching.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\System.Security.Permissions.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\System.Windows.Extensions.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Download\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\Download\WebStore\WebStore\obj\Debug\net8.0\staticwebassets.build.json
+E:\Download\WebStore\WebStore\obj\Debug\net8.0\staticwebassets.development.json
+E:\Download\WebStore\WebStore\obj\Debug\net8.0\staticwebassets\msbuild.WebStore.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Download\WebStore\WebStore\obj\Debug\net8.0\staticwebassets\msbuild.build.WebStore.props
+E:\Download\WebStore\WebStore\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebStore.props
+E:\Download\WebStore\WebStore\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebStore.props
+E:\Download\WebStore\WebStore\obj\Debug\net8.0\staticwebassets.pack.json
+E:\Download\WebStore\WebStore\obj\Debug\net8.0\scopedcss\bundle\WebStore.styles.css
+E:\Download\WebStore\WebStore\obj\Debug\net8.0\WebStore.csproj.Up2Date
+E:\Download\WebStore\WebStore\obj\Debug\net8.0\WebStore.genruntimeconfig.cache
+E:\Download\WebStore\WebStore\obj\Debug\net8.0\ref\WebStore.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\appsettings.json
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\WebStore.exe
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\WebStore.deps.json
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\WebStore.runtimeconfig.json
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\WebStore.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\WebStore.pdb
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\Humanizer.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\obj\Debug\net8.0\WebStore.csproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\obj\Debug\net8.0\WebStore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\obj\Debug\net8.0\WebStore.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\obj\Debug\net8.0\WebStore.AssemblyInfo.cs
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\obj\Debug\net8.0\WebStore.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\obj\Debug\net8.0\WebStore.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\obj\Debug\net8.0\WebStore.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\obj\Debug\net8.0\staticwebassets\msbuild.WebStore.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\obj\Debug\net8.0\staticwebassets\msbuild.build.WebStore.props
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebStore.props
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebStore.props
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\obj\Debug\net8.0\scopedcss\bundle\WebStore.styles.css
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\obj\Debug\net8.0\WebStore.csproj.Up2Date
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\obj\Debug\net8.0\WebStore.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\obj\Debug\net8.0\refint\WebStore.dll
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\obj\Debug\net8.0\WebStore.pdb
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\obj\Debug\net8.0\WebStore.genruntimeconfig.cache
+C:\Users\Admin\OneDrive\Máy tính\WebStore\WebStore\obj\Debug\net8.0\ref\WebStore.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\appsettings.Development.json
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\appsettings.json
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\WebStore.exe
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\WebStore.deps.json
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\WebStore.runtimeconfig.json
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\WebStore.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\WebStore.pdb
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\Azure.Core.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\Azure.Identity.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\Humanizer.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\Mono.TextTemplating.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\System.CodeDom.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\System.Composition.Convention.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\System.Composition.Hosting.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\System.Composition.Runtime.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\System.Composition.TypedParts.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\System.Drawing.Common.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\System.Memory.Data.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\System.Runtime.Caching.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\System.Security.Permissions.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\System.Windows.Extensions.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\obj\Debug\net8.0\WebStore.csproj.AssemblyReference.cache
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\obj\Debug\net8.0\WebStore.GeneratedMSBuildEditorConfig.editorconfig
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\obj\Debug\net8.0\WebStore.AssemblyInfoInputs.cache
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\obj\Debug\net8.0\WebStore.AssemblyInfo.cs
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\obj\Debug\net8.0\WebStore.csproj.CoreCompileInputs.cache
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\obj\Debug\net8.0\WebStore.MvcApplicationPartsAssemblyInfo.cs
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\obj\Debug\net8.0\WebStore.MvcApplicationPartsAssemblyInfo.cache
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\obj\Debug\net8.0\staticwebassets.build.json
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\obj\Debug\net8.0\staticwebassets.development.json
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\obj\Debug\net8.0\staticwebassets\msbuild.WebStore.Microsoft.AspNetCore.StaticWebAssets.props
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\obj\Debug\net8.0\staticwebassets\msbuild.build.WebStore.props
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebStore.props
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebStore.props
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\obj\Debug\net8.0\staticwebassets.pack.json
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\obj\Debug\net8.0\scopedcss\bundle\WebStore.styles.css
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\obj\Debug\net8.0\WebStore.csproj.Up2Date
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\obj\Debug\net8.0\WebStore.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\obj\Debug\net8.0\refint\WebStore.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\obj\Debug\net8.0\WebStore.pdb
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\obj\Debug\net8.0\WebStore.genruntimeconfig.cache
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\obj\Debug\net8.0\ref\WebStore.dll
+E:\vune\nam4_hk1\DOAN\CN\WebStore\WebStore\bin\Debug\net8.0\BCrypt.Net-Next.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\appsettings.Development.json
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\appsettings.json
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\WebStore.exe
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\WebStore.deps.json
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\WebStore.runtimeconfig.json
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\WebStore.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\WebStore.pdb
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\Azure.Core.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\Azure.Identity.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\BCrypt.Net-Next.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\Humanizer.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.OpenApi.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\Mono.TextTemplating.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\System.CodeDom.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\System.Composition.Convention.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\System.Composition.Hosting.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\System.Composition.Runtime.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\System.Composition.TypedParts.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\System.Drawing.Common.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\System.Memory.Data.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\System.Runtime.Caching.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\System.Security.Permissions.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\System.Windows.Extensions.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\obj\Debug\net8.0\WebStore.csproj.AssemblyReference.cache
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\obj\Debug\net8.0\WebStore.GeneratedMSBuildEditorConfig.editorconfig
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\obj\Debug\net8.0\WebStore.AssemblyInfoInputs.cache
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\obj\Debug\net8.0\WebStore.AssemblyInfo.cs
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\obj\Debug\net8.0\WebStore.csproj.CoreCompileInputs.cache
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\obj\Debug\net8.0\WebStore.MvcApplicationPartsAssemblyInfo.cs
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\obj\Debug\net8.0\WebStore.MvcApplicationPartsAssemblyInfo.cache
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\obj\Debug\net8.0\staticwebassets.build.json
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\obj\Debug\net8.0\staticwebassets.development.json
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\obj\Debug\net8.0\staticwebassets\msbuild.WebStore.Microsoft.AspNetCore.StaticWebAssets.props
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\obj\Debug\net8.0\staticwebassets\msbuild.build.WebStore.props
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebStore.props
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebStore.props
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\obj\Debug\net8.0\staticwebassets.pack.json
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\obj\Debug\net8.0\scopedcss\bundle\WebStore.styles.css
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\obj\Debug\net8.0\WebStore.csproj.Up2Date
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\obj\Debug\net8.0\WebStore.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\obj\Debug\net8.0\refint\WebStore.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\obj\Debug\net8.0\WebStore.pdb
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\obj\Debug\net8.0\WebStore.genruntimeconfig.cache
+F:\hoc_tap\lop\hk1_nam4\DOAN\WebStore\WebStore\obj\Debug\net8.0\ref\WebStore.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\appsettings.Development.json
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\appsettings.json
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\WebStore.exe
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\WebStore.deps.json
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\WebStore.runtimeconfig.json
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\WebStore.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\WebStore.pdb
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\Azure.Core.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\Azure.Identity.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\Humanizer.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\System.CodeDom.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Api C# demo\WebStore\WebStore\obj\Debug\net8.0\WebStore.csproj.AssemblyReference.cache
+D:\Api C# demo\WebStore\WebStore\obj\Debug\net8.0\WebStore.GeneratedMSBuildEditorConfig.editorconfig
+D:\Api C# demo\WebStore\WebStore\obj\Debug\net8.0\WebStore.AssemblyInfoInputs.cache
+D:\Api C# demo\WebStore\WebStore\obj\Debug\net8.0\WebStore.AssemblyInfo.cs
+D:\Api C# demo\WebStore\WebStore\obj\Debug\net8.0\WebStore.csproj.CoreCompileInputs.cache
+D:\Api C# demo\WebStore\WebStore\obj\Debug\net8.0\WebStore.MvcApplicationPartsAssemblyInfo.cs
+D:\Api C# demo\WebStore\WebStore\obj\Debug\net8.0\WebStore.MvcApplicationPartsAssemblyInfo.cache
+D:\Api C# demo\WebStore\WebStore\obj\Debug\net8.0\staticwebassets.build.json
+D:\Api C# demo\WebStore\WebStore\obj\Debug\net8.0\staticwebassets.development.json
+D:\Api C# demo\WebStore\WebStore\obj\Debug\net8.0\staticwebassets\msbuild.WebStore.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Api C# demo\WebStore\WebStore\obj\Debug\net8.0\staticwebassets\msbuild.build.WebStore.props
+D:\Api C# demo\WebStore\WebStore\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebStore.props
+D:\Api C# demo\WebStore\WebStore\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebStore.props
+D:\Api C# demo\WebStore\WebStore\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Api C# demo\WebStore\WebStore\obj\Debug\net8.0\scopedcss\bundle\WebStore.styles.css
+D:\Api C# demo\WebStore\WebStore\obj\Debug\net8.0\WebStore.csproj.CopyComplete
+D:\Api C# demo\WebStore\WebStore\obj\Debug\net8.0\WebStore.dll
+D:\Api C# demo\WebStore\WebStore\obj\Debug\net8.0\refint\WebStore.dll
+D:\Api C# demo\WebStore\WebStore\obj\Debug\net8.0\WebStore.pdb
+D:\Api C# demo\WebStore\WebStore\obj\Debug\net8.0\WebStore.genruntimeconfig.cache
+D:\Api C# demo\WebStore\WebStore\obj\Debug\net8.0\ref\WebStore.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\AutoMapper.dll
+D:\Api C# demo\WebStore\WebStore\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\appsettings.Development.json
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\appsettings.json
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\WebStore.exe
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\WebStore.deps.json
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\WebStore.runtimeconfig.json
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\WebStore.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\WebStore.pdb
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\AutoMapper.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\Azure.Core.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\Azure.Identity.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\BCrypt.Net-Next.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\Humanizer.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\Microsoft.OpenApi.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\Mono.TextTemplating.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\System.CodeDom.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\System.Composition.Convention.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\System.Composition.Hosting.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\System.Composition.Runtime.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\System.Composition.TypedParts.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\System.Drawing.Common.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\System.Memory.Data.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\System.Runtime.Caching.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\System.Security.Permissions.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\System.Windows.Extensions.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\obj\Debug\net8.0\WebStore.csproj.AssemblyReference.cache
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\obj\Debug\net8.0\WebStore.GeneratedMSBuildEditorConfig.editorconfig
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\obj\Debug\net8.0\WebStore.AssemblyInfoInputs.cache
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\obj\Debug\net8.0\WebStore.AssemblyInfo.cs
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\obj\Debug\net8.0\WebStore.csproj.CoreCompileInputs.cache
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\obj\Debug\net8.0\WebStore.MvcApplicationPartsAssemblyInfo.cs
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\obj\Debug\net8.0\WebStore.MvcApplicationPartsAssemblyInfo.cache
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\obj\Debug\net8.0\staticwebassets.build.json
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\obj\Debug\net8.0\staticwebassets.development.json
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\obj\Debug\net8.0\staticwebassets\msbuild.WebStore.Microsoft.AspNetCore.StaticWebAssets.props
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\obj\Debug\net8.0\staticwebassets\msbuild.build.WebStore.props
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebStore.props
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebStore.props
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\obj\Debug\net8.0\staticwebassets.pack.json
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\obj\Debug\net8.0\scopedcss\bundle\WebStore.styles.css
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\obj\Debug\net8.0\WebStore.csproj.Up2Date
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\obj\Debug\net8.0\WebStore.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\obj\Debug\net8.0\refint\WebStore.dll
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\obj\Debug\net8.0\WebStore.pdb
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\obj\Debug\net8.0\WebStore.genruntimeconfig.cache
+F:\hoc_tap\lop\hk1_nam4\DOAN\Minh\WebStore\WebStore\obj\Debug\net8.0\ref\WebStore.dll
