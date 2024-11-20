@@ -14,10 +14,15 @@ namespace WebStore.Helpers
             CreateMap<Product, ProductDto>().ReverseMap();
 
             // Order
-           // CreateMap<Order, OrderDto>().ReverseMap();
+           CreateMap<Orders, OrderDto>().ReverseMap();
 
             // OrderItem
-           // CreateMap<OrderItem, OrderItemDto>().ReverseMap();
+            // CreateMap<OrderItem, OrderItemDto>().ReverseMap();
+            //Size
+            CreateMap<Size, SizeDto>().ReverseMap();
+            //category
+            CreateMap<Category, CategoryDto>().ReverseMap();
+            
         }
     }
 
