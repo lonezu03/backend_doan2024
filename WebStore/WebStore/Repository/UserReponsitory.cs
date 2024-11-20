@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using WebStore.Context;
 using WebStore.Entity;
 using WebStore.Reposiroty.Interface;
+using WebStore.DTO;
 
 
 namespace WebStore.Repository

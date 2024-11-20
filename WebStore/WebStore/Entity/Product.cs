@@ -8,7 +8,7 @@ using WebStore.Entity;
 
 namespace WebStore.Entity
 {
-    [Table("Product")]
+   
 
     public class Product
     {

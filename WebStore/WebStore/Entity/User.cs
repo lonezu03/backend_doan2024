@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace WebStore.Entity
 {
-    [Table("Users")]
+   
     public class User
     {
         public int Id { get; set; }         // Mã người dùng (Primary Key)

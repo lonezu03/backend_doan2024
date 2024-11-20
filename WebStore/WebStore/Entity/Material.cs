@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace WebStore.Entity
 {
-    [Table("Material")]
+  
 
     public class Material
     {

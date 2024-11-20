@@ -2,7 +2,7 @@
 
 namespace WebStore.Entity
 {
-    [Table("Address")]
+
     public class Address
     {
         public int Id { get; set; }

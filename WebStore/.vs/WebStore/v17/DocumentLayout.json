@@ -3,86 +3,238 @@
   "WorkspaceRootPath": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\entity\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\entity\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\entity\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\entity\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\entity\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\entity\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\entity\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\entity\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\service\\iservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\service\\iservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\service\\iservice\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\service\\iservice\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\repository\\sizerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\repository\\sizerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\controllers\\sizecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\controllers\\sizecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Migrations\\20241118053232_Initilmagration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebStore\\Migrations\\20241118053232_Initilmagration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\service\\sizeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\service\\sizeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\service\\iservice\\isizeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\service\\iservice\\isizeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\repository\\interface\\isizerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\repository\\interface\\isizerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\dto\\sizedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\dto\\sizedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\entity\\size.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\entity\\size.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\entity\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\entity\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\entity\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\entity\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\service\\iservice\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\service\\iservice\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\controllers\\colorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\controllers\\colorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\dto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\dto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\repository\\interface\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\repository\\interface\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\service\\colorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\service\\colorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\repository\\colorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\repository\\colorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\repository\\interface\\icolorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\repository\\interface\\icolorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\entity\\color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\entity\\color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Migrations\\20241120065839_Da.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebStore\\Migrations\\20241120065839_Da.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Migrations\\20241120065805_lolo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebStore\\Migrations\\20241120065805_lolo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\service\\iservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\service\\iservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\service\\iservice\\icolorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\service\\iservice\\icolorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\service\\iservice\\updateorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\service\\iservice\\updateorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\dto\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\dto\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\entity\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\entity\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\entity\\shipping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\entity\\shipping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\entity\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\entity\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\repository\\interface\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\repository\\interface\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Migrations\\20241119164423_initmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebStore\\Migrations\\20241119164423_initmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\dto\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\dto\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\entity\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\entity\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Migrations\\20241119162820_initmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebStore\\Migrations\\20241119162820_initmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\entity\\variant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\entity\\variant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\entity\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\entity\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\entity\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\entity\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\entity\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\entity\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\entity\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\entity\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\entity\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\entity\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Migrations\\20241119155139_initmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebStore\\Migrations\\20241119155139_initmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\entity\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\entity\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\WebStore\\WebStore\\Entity\\EntityDTO\\LoginResponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\dto\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\dto\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\WebStore\\WebStore\\Migrations\\20241117032135_Initilmagration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Migrations\\20241119143801_lolo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebStore\\Migrations\\20241119143801_lolo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\hoc_tap\\lop\\hk1_nam4\\doan\\minh\\webstore\\webstore\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\WebStore\\WebStore\\Entity\\EntityDTO\\LoginResponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -92,102 +244,308 @@
       "DocumentGroups": [
         {
           "DockedWidth": 215,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Service\\ProductService.cs",
-              "RelativeDocumentMoniker": "WebStore\\Service\\ProductService.cs",
-              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Service\\ProductService.cs",
-              "RelativeToolTip": "WebStore\\Service\\ProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T05:38:49.613Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Program.cs",
-              "RelativeDocumentMoniker": "WebStore\\Program.cs",
-              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Program.cs",
-              "RelativeToolTip": "WebStore\\Program.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAiwHMAAAAAAAAAAAAAAA==",
+              "Title": "SizeDto.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\DTO\\SizeDto.cs",
+              "RelativeDocumentMoniker": "WebStore\\DTO\\SizeDto.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\DTO\\SizeDto.cs",
+              "RelativeToolTip": "WebStore\\DTO\\SizeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T06:41:03.06Z",
+              "WhenOpened": "2024-11-20T08:50:42.428Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Order.cs",
-              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Entity\\Order.cs",
-              "RelativeDocumentMoniker": "WebStore\\Entity\\Order.cs",
-              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Entity\\Order.cs",
-              "RelativeToolTip": "WebStore\\Entity\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "ISizeService.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Service\\IService\\ISizeService.cs",
+              "RelativeDocumentMoniker": "WebStore\\Service\\IService\\ISizeService.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Service\\IService\\ISizeService.cs",
+              "RelativeToolTip": "WebStore\\Service\\IService\\ISizeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T03:14:35.807Z",
+              "WhenOpened": "2024-11-20T08:49:50.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SizeRepository.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Repository\\SizeRepository.cs",
+              "RelativeDocumentMoniker": "WebStore\\Repository\\SizeRepository.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Repository\\SizeRepository.cs",
+              "RelativeToolTip": "WebStore\\Repository\\SizeRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA3wCUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T08:45:26.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ISizeRepository.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Repository\\Interface\\ISizeRepository.cs",
+              "RelativeDocumentMoniker": "WebStore\\Repository\\Interface\\ISizeRepository.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Repository\\Interface\\ISizeRepository.cs",
+              "RelativeToolTip": "WebStore\\Repository\\Interface\\ISizeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T08:44:56.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ColorController.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Controllers\\ColorController.cs",
+              "RelativeDocumentMoniker": "WebStore\\Controllers\\ColorController.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Controllers\\ColorController.cs",
+              "RelativeToolTip": "WebStore\\Controllers\\ColorController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T15:06:59.402Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "Product.cs",
-              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Entity\\Product.cs",
-              "RelativeDocumentMoniker": "WebStore\\Entity\\Product.cs",
-              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Entity\\Product.cs",
-              "RelativeToolTip": "WebStore\\Entity\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "WebStore\\Controllers\\OrderController.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "WebStore\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowBUAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T03:15:54.813Z",
+              "WhenOpened": "2024-11-19T15:54:13.583Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "WebStore\\Controllers\\UserController.cs",
-              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Controllers\\UserController.cs",
-              "RelativeToolTip": "WebStore\\Controllers\\UserController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowCwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T05:12:03.482Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 8,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Context\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "WebStore\\Context\\ApplicationDbContext.cs",
               "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Context\\ApplicationDbContext.cs",
               "RelativeToolTip": "WebStore\\Context\\ApplicationDbContext.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAAwEoAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAWwAsAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-17T03:20:24.128Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\appsettings.json",
-              "RelativeDocumentMoniker": "WebStore\\appsettings.json",
-              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\appsettings.json",
-              "RelativeToolTip": "WebStore\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAACJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-16T16:34:13.408Z",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Program.cs",
+              "RelativeDocumentMoniker": "WebStore\\Program.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Program.cs",
+              "RelativeToolTip": "WebStore\\Program.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAEUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T06:41:03.06Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
+              "Title": "SizeService.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Service\\SizeService.cs",
+              "RelativeDocumentMoniker": "WebStore\\Service\\SizeService.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Service\\SizeService.cs",
+              "RelativeToolTip": "WebStore\\Service\\SizeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T08:51:25.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SizeController.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Controllers\\SizeController.cs",
+              "RelativeDocumentMoniker": "WebStore\\Controllers\\SizeController.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Controllers\\SizeController.cs",
+              "RelativeToolTip": "WebStore\\Controllers\\SizeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T08:55:56.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Repository\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "WebStore\\Repository\\OrderRepository.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Repository\\OrderRepository.cs",
+              "RelativeToolTip": "WebStore\\Repository\\OrderRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwvxsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T15:14:35.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Repository\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "WebStore\\Repository\\CategoryRepository.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Repository\\CategoryRepository.cs",
+              "RelativeToolTip": "WebStore\\Repository\\CategoryRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAswBIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T08:15:33.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Service\\IService\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "WebStore\\Service\\IService\\ICategoryService.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Service\\IService\\ICategoryService.cs",
+              "RelativeToolTip": "WebStore\\Service\\IService\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T08:17:14.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CategoryDto.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\DTO\\CategoryDto.cs",
+              "RelativeDocumentMoniker": "WebStore\\DTO\\CategoryDto.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\DTO\\CategoryDto.cs",
+              "RelativeToolTip": "WebStore\\DTO\\CategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T08:20:16.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "WebStore\\Controllers\\CategoryController.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "WebStore\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAkwCUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T08:21:23.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Size.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Entity\\Size.cs",
+              "RelativeDocumentMoniker": "WebStore\\Entity\\Size.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Entity\\Size.cs",
+              "RelativeToolTip": "WebStore\\Entity\\Size.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T14:17:13.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Service\\CategoryService.cs",
+              "RelativeDocumentMoniker": "WebStore\\Service\\CategoryService.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Service\\CategoryService.cs",
+              "RelativeToolTip": "WebStore\\Service\\CategoryService.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowAcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T08:17:42.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Repository\\Interface\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "WebStore\\Repository\\Interface\\ICategoryRepository.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Repository\\Interface\\ICategoryRepository.cs",
+              "RelativeToolTip": "WebStore\\Repository\\Interface\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T08:13:15.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ColorRepository.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Repository\\ColorRepository.cs",
+              "RelativeDocumentMoniker": "WebStore\\Repository\\ColorRepository.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Repository\\ColorRepository.cs",
+              "RelativeToolTip": "WebStore\\Repository\\ColorRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAswB0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T15:08:51.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ColorService.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Service\\ColorService.cs",
+              "RelativeDocumentMoniker": "WebStore\\Service\\ColorService.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Service\\ColorService.cs",
+              "RelativeToolTip": "WebStore\\Service\\ColorService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T15:06:12.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Color.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Entity\\Color.cs",
+              "RelativeDocumentMoniker": "WebStore\\Entity\\Color.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Entity\\Color.cs",
+              "RelativeToolTip": "WebStore\\Entity\\Color.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T14:18:28.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IColorRepository.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Repository\\Interface\\IColorRepository.cs",
+              "RelativeDocumentMoniker": "WebStore\\Repository\\Interface\\IColorRepository.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Repository\\Interface\\IColorRepository.cs",
+              "RelativeToolTip": "WebStore\\Repository\\Interface\\IColorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T15:08:33.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20241120065805_lolo.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Migrations\\20241120065805_lolo.cs",
+              "RelativeDocumentMoniker": "WebStore\\Migrations\\20241120065805_lolo.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Migrations\\20241120065805_lolo.cs",
+              "RelativeToolTip": "WebStore\\Migrations\\20241120065805_lolo.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T06:58:05.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "IUserService.cs",
               "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Service\\IService\\IUserService.cs",
               "RelativeDocumentMoniker": "WebStore\\Service\\IService\\IUserService.cs",
@@ -200,137 +558,426 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrderItem.cs",
-              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Entity\\OrderItem.cs",
-              "RelativeDocumentMoniker": "WebStore\\Entity\\OrderItem.cs",
-              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Entity\\OrderItem.cs",
-              "RelativeToolTip": "WebStore\\Entity\\OrderItem.cs",
+              "DocumentIndex": 18,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "WebStore\\Controllers\\ProductController.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "WebStore\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA1wBwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T14:28:13.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20241120065839_Da.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Migrations\\20241120065839_Da.cs",
+              "RelativeDocumentMoniker": "WebStore\\Migrations\\20241120065839_Da.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Migrations\\20241120065839_Da.cs",
+              "RelativeToolTip": "WebStore\\Migrations\\20241120065839_Da.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T06:58:39.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UpdateOrderDto.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Service\\IService\\UpdateOrderDto.cs",
+              "RelativeDocumentMoniker": "WebStore\\Service\\IService\\UpdateOrderDto.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Service\\IService\\UpdateOrderDto.cs",
+              "RelativeToolTip": "WebStore\\Service\\IService\\UpdateOrderDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T03:14:01.094Z",
+              "WhenOpened": "2024-11-20T06:11:02.541Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "User.cs",
-              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Entity\\User.cs",
-              "RelativeDocumentMoniker": "WebStore\\Entity\\User.cs",
-              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Entity\\User.cs",
-              "RelativeToolTip": "WebStore\\Entity\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T05:28:51.255Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Image.cs",
-              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Entity\\Image.cs",
-              "RelativeDocumentMoniker": "WebStore\\Entity\\Image.cs",
-              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Entity\\Image.cs",
-              "RelativeToolTip": "WebStore\\Entity\\Image.cs",
+              "DocumentIndex": 28,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Service\\ProductService.cs",
+              "RelativeDocumentMoniker": "WebStore\\Service\\ProductService.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Service\\ProductService.cs",
+              "RelativeToolTip": "WebStore\\Service\\ProductService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T05:44:01.903Z",
+              "WhenOpened": "2024-11-20T06:11:00.239Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Inventory.cs",
-              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Entity\\Inventory.cs",
-              "RelativeDocumentMoniker": "WebStore\\Entity\\Inventory.cs",
-              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Entity\\Inventory.cs",
-              "RelativeToolTip": "WebStore\\Entity\\Inventory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 26,
+              "Title": "IColorService.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Service\\IService\\IColorService.cs",
+              "RelativeDocumentMoniker": "WebStore\\Service\\IService\\IColorService.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Service\\IService\\IColorService.cs",
+              "RelativeToolTip": "WebStore\\Service\\IService\\IColorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T05:44:02.933Z",
+              "WhenOpened": "2024-11-19T15:05:49.986Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Service\\IService\\IProductService.cs",
-              "RelativeDocumentMoniker": "WebStore\\Service\\IService\\IProductService.cs",
-              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Service\\IService\\IProductService.cs",
-              "RelativeToolTip": "WebStore\\Service\\IService\\IProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 30,
+              "Title": "CreateOrderDto.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\DTO\\CreateOrderDto.cs",
+              "RelativeDocumentMoniker": "WebStore\\DTO\\CreateOrderDto.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\DTO\\CreateOrderDto.cs",
+              "RelativeToolTip": "WebStore\\DTO\\CreateOrderDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T05:38:54.788Z",
+              "WhenOpened": "2024-11-19T14:49:37.567Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 31,
+              "Title": "Orders.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Entity\\Orders.cs",
+              "RelativeDocumentMoniker": "WebStore\\Entity\\Orders.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Entity\\Orders.cs",
+              "RelativeToolTip": "WebStore\\Entity\\Orders.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T03:14:35.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "UserService.cs",
               "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Service\\UserService.cs",
               "RelativeDocumentMoniker": "WebStore\\Service\\UserService.cs",
               "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Service\\UserService.cs",
               "RelativeToolTip": "WebStore\\Service\\UserService.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAADwv0AAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAUwDgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-16T16:27:43.948Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "20241118053232_Initilmagration.cs",
-              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Migrations\\20241118053232_Initilmagration.cs",
-              "RelativeDocumentMoniker": "WebStore\\Migrations\\20241118053232_Initilmagration.cs",
-              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Migrations\\20241118053232_Initilmagration.cs",
-              "RelativeToolTip": "WebStore\\Migrations\\20241118053232_Initilmagration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T05:32:33.004Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Gender.cs",
-              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Entity\\Gender.cs",
-              "RelativeDocumentMoniker": "WebStore\\Entity\\Gender.cs",
-              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Entity\\Gender.cs",
-              "RelativeToolTip": "WebStore\\Entity\\Gender.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T05:28:56.401Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 33,
               "Title": "Shipping.cs",
               "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Entity\\Shipping.cs",
               "RelativeDocumentMoniker": "WebStore\\Entity\\Shipping.cs",
               "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Entity\\Shipping.cs",
               "RelativeToolTip": "WebStore\\Entity\\Shipping.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T05:28:29.045Z",
+              "WhenOpened": "2024-11-19T14:12:57.891Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 34,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Entity\\OrderItem.cs",
+              "RelativeDocumentMoniker": "WebStore\\Entity\\OrderItem.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Entity\\OrderItem.cs",
+              "RelativeToolTip": "WebStore\\Entity\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T03:14:01.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20241119164423_initmigration.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Migrations\\20241119164423_initmigration.cs",
+              "RelativeDocumentMoniker": "WebStore\\Migrations\\20241119164423_initmigration.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Migrations\\20241119164423_initmigration.cs",
+              "RelativeToolTip": "WebStore\\Migrations\\20241119164423_initmigration.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T16:44:23.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Repository\\Interface\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "WebStore\\Repository\\Interface\\IOrderRepository.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Repository\\Interface\\IOrderRepository.cs",
+              "RelativeToolTip": "WebStore\\Repository\\Interface\\IOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T16:47:13.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Service\\OrderService.cs",
+              "RelativeDocumentMoniker": "WebStore\\Service\\OrderService.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Service\\OrderService.cs",
+              "RelativeToolTip": "WebStore\\Service\\OrderService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAA7wDEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T14:13:15.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Repository\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "WebStore\\Repository\\ProductRepository.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Repository\\ProductRepository.cs",
+              "RelativeToolTip": "WebStore\\Repository\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T15:14:27.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Category.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Entity\\Category.cs",
+              "RelativeDocumentMoniker": "WebStore\\Entity\\Category.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Entity\\Category.cs",
+              "RelativeToolTip": "WebStore\\Entity\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T14:18:31.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "OrderDto.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\DTO\\OrderDto.cs",
+              "RelativeDocumentMoniker": "WebStore\\DTO\\OrderDto.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\DTO\\OrderDto.cs",
+              "RelativeToolTip": "WebStore\\DTO\\OrderDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T14:29:57.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "20241119162820_initmigration.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Migrations\\20241119162820_initmigration.cs",
+              "RelativeDocumentMoniker": "WebStore\\Migrations\\20241119162820_initmigration.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Migrations\\20241119162820_initmigration.cs",
+              "RelativeToolTip": "WebStore\\Migrations\\20241119162820_initmigration.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T16:28:20.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Product.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Entity\\Product.cs",
+              "RelativeDocumentMoniker": "WebStore\\Entity\\Product.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Entity\\Product.cs",
+              "RelativeToolTip": "WebStore\\Entity\\Product.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T03:15:54.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Material.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Entity\\Material.cs",
+              "RelativeDocumentMoniker": "WebStore\\Entity\\Material.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Entity\\Material.cs",
+              "RelativeToolTip": "WebStore\\Entity\\Material.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T14:18:15.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Image.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Entity\\Image.cs",
+              "RelativeDocumentMoniker": "WebStore\\Entity\\Image.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Entity\\Image.cs",
+              "RelativeToolTip": "WebStore\\Entity\\Image.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T14:18:21.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Variant.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Entity\\Variant.cs",
+              "RelativeDocumentMoniker": "WebStore\\Entity\\Variant.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Entity\\Variant.cs",
+              "RelativeToolTip": "WebStore\\Entity\\Variant.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T14:17:21.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "User.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Entity\\User.cs",
+              "RelativeDocumentMoniker": "WebStore\\Entity\\User.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Entity\\User.cs",
+              "RelativeToolTip": "WebStore\\Entity\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T14:17:18.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Entity\\Inventory.cs",
+              "RelativeDocumentMoniker": "WebStore\\Entity\\Inventory.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Entity\\Inventory.cs",
+              "RelativeToolTip": "WebStore\\Entity\\Inventory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T14:18:18.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Gender.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Entity\\Gender.cs",
+              "RelativeDocumentMoniker": "WebStore\\Entity\\Gender.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Entity\\Gender.cs",
+              "RelativeToolTip": "WebStore\\Entity\\Gender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T14:18:25.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "20241119155139_initmigration.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Migrations\\20241119155139_initmigration.cs",
+              "RelativeDocumentMoniker": "WebStore\\Migrations\\20241119155139_initmigration.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Migrations\\20241119155139_initmigration.cs",
+              "RelativeToolTip": "WebStore\\Migrations\\20241119155139_initmigration.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T15:51:40.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "WebStore\\Controllers\\UserController.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Controllers\\UserController.cs",
+              "RelativeToolTip": "WebStore\\Controllers\\UserController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwCwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T05:12:03.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\appsettings.json",
+              "RelativeDocumentMoniker": "WebStore\\appsettings.json",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\appsettings.json",
+              "RelativeToolTip": "WebStore\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAACJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-16T16:34:13.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
               "Title": "Address.cs",
               "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Entity\\Address.cs",
               "RelativeDocumentMoniker": "WebStore\\Entity\\Address.cs",
               "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Entity\\Address.cs",
               "RelativeToolTip": "WebStore\\Entity\\Address.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-17T03:13:44.737Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 52,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\DTO\\ProductDto.cs",
+              "RelativeDocumentMoniker": "WebStore\\DTO\\ProductDto.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\DTO\\ProductDto.cs",
+              "RelativeToolTip": "WebStore\\DTO\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T14:49:44.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\DTO\\UserDto.cs",
+              "RelativeDocumentMoniker": "WebStore\\DTO\\UserDto.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\DTO\\UserDto.cs",
+              "RelativeToolTip": "WebStore\\DTO\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T14:49:43.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\DTO\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "WebStore\\DTO\\LoginResponse.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\DTO\\LoginResponse.cs",
+              "RelativeToolTip": "WebStore\\DTO\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T14:49:38.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "20241119143801_lolo.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Migrations\\20241119143801_lolo.cs",
+              "RelativeDocumentMoniker": "WebStore\\Migrations\\20241119143801_lolo.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Migrations\\20241119143801_lolo.cs",
+              "RelativeToolTip": "WebStore\\Migrations\\20241119143801_lolo.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T14:38:01.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "20241117032135_Initilmagration.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\WebStore\\WebStore\\Migrations\\20241117032135_Initilmagration.cs",
+              "RelativeDocumentMoniker": "..\\..\\WebStore\\WebStore\\Migrations\\20241117032135_Initilmagration.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\WebStore\\WebStore\\Migrations\\20241117032135_Initilmagration.cs",
+              "RelativeToolTip": "..\\..\\WebStore\\WebStore\\Migrations\\20241117032135_Initilmagration.cs",
+              "ViewState": "AgIAAPYAAAAAAAAAAAAmwAQBAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T08:35:25.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
               "Title": "LoginResponse.cs",
               "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\WebStore\\WebStore\\Entity\\EntityDTO\\LoginResponse.cs",
               "RelativeDocumentMoniker": "..\\..\\WebStore\\WebStore\\Entity\\EntityDTO\\LoginResponse.cs",
@@ -343,20 +990,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "20241117032135_Initilmagration.cs",
-              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\WebStore\\WebStore\\Migrations\\20241117032135_Initilmagration.cs",
-              "RelativeDocumentMoniker": "..\\..\\WebStore\\WebStore\\Migrations\\20241117032135_Initilmagration.cs",
-              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\WebStore\\WebStore\\Migrations\\20241117032135_Initilmagration.cs",
-              "RelativeToolTip": "..\\..\\WebStore\\WebStore\\Migrations\\20241117032135_Initilmagration.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAgwAoAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T08:35:25.49Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 57,
               "Title": "launchSettings.json",
               "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "WebStore\\Properties\\launchSettings.json",

@@ -2,14 +2,14 @@
 
 namespace WebStore.Entity
 {
-    [Table("Shipping")]
+    
     public class Shipping
     {
         public int Id { get; set; }
-        public int AddressId { get; set; }
-        public DateTime ShippingDate { get; set; }
+        public int Address_Id { get; set; }
+        public DateTime Shipping_Date { get; set; }
 
         public Address Address { get; set; }
-        public ICollection<Order> Orders { get; set; }
+        public ICollection<Orders> Orders { get; set; }// 1-n với Order
     }
 }
