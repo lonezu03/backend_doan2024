@@ -2,7 +2,7 @@
 
 namespace WebStore.Entity
 {
-    [Table("Size")]
+   
     public class Size
     {
         public int Id { get; set; }

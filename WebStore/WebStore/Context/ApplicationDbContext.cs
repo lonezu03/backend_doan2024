@@ -9,22 +9,23 @@ namespace WebStore.Context
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
         public DbSet<User> Users { get; set; } // Ánh xạ tới bảng Users
-        public DbSet<Gender> Genders { get; set; }
-        public DbSet<Size> Sizes { get; set; }
+        public DbSet<Gender> Gender { get; set; }
+        public DbSet<Size> Size { get; set; }
         public DbSet<Material> Materials { get; set; }
-        public DbSet<Color> Colors { get; set; }
-        public DbSet<Category> Categories { get; set; }
-        public DbSet<Product> Products { get; set; }
-        public DbSet<Variant> Variants { get; set; }
-        public DbSet<Image> Images { get; set; }
-        public DbSet<Inventory> Inventories { get; set; }
-        public DbSet<Address> Addresses { get; set; }
-        public DbSet<Shipping> Shippings { get; set; }
-        public DbSet<Order> Orders { get; set; }
-        public DbSet<OrderItem> OrderItems { get; set; }
+        public DbSet<Color> Color { get; set; }
+        public DbSet<Category> Category { get; set; }
+        public DbSet<Product> Product { get; set; }
+        public DbSet<Variant> Variant { get; set; }
+        public DbSet<Image> Image { get; set; }
+        public DbSet<Inventory> Inventory { get; set; }
+        public DbSet<Address> Address { get; set; }
+       // public DbSet<Shipping> Shippings { get; set; }
+        public DbSet<Orders> Orders { get; set; }
+        public DbSet<OrderItem> OrderItem { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<Product>()
                 .HasOne(p => p.Material)         // Một Product có một Material
                 .WithMany(m => m.Products)       // Một Material có nhiều Product
@@ -40,12 +41,12 @@ namespace WebStore.Context
             modelBuilder.Entity<Product>()
                 .HasMany(p => p.Variants)       // Một Product có nhiều Variant
                 .WithOne(v => v.Product)         // Một Variant chỉ thuộc về một Product
-                .HasForeignKey(v => v.ProductId); // Khóa ngoại ở bảng Variant trỏ tới Product
-            //modelBuilder.Entity<Address>()
-            //    .HasOne(a => a.User)
-            //    .WithMany(a=>a.Addresses)
-            //    .HasForeignKey(a=>a.UserId)
-            //     .OnDelete(DeleteBehavior.Restrict);
+                .HasForeignKey(v => v.Product_Id); // Khóa ngoại ở bảng Variant trỏ tới Product
+            modelBuilder.Entity<Address>()
+                .HasOne(a => a.User)
+                .WithMany(a => a.Addresses)
+                .HasForeignKey(a => a.UserId)
+                 .OnDelete(DeleteBehavior.Restrict);
             modelBuilder.Entity<User>()
            .HasMany(u => u.Addresses)
            .WithOne(a => a.User)
@@ -54,41 +55,40 @@ namespace WebStore.Context
             modelBuilder.Entity<Product>()
            .HasMany(p => p.Variants)
            .WithOne(v => v.Product)
-           .HasForeignKey(v => v.ProductId);
+           .HasForeignKey(v => v.Product_Id);
 
             // Variant - Color (nhiều-1)
             modelBuilder.Entity<Variant>()
                 .HasOne(v => v.Color)
                 .WithMany(c => c.Variants)
-                .HasForeignKey(v => v.ColorId);
+                .HasForeignKey(v => v.Color_Id);
 
             // Variant - Size (nhiều-1)
             modelBuilder.Entity<Variant>()
                 .HasOne(v => v.Size)
                 .WithMany(s => s.Variants)
-                .HasForeignKey(v => v.SizeId);
+                .HasForeignKey(v => v.Size_Id);
 
             // Variant - Image (1-nhiều)
             modelBuilder.Entity<Variant>()
                 .HasMany(v => v.Images)
                 .WithOne(i => i.Variant)
-                .HasForeignKey(i => i.VariantId);
+                .HasForeignKey(i => i.Variant_Id);
             
 
-            modelBuilder.Entity<Order>()
-                .HasOne(o => o.User)
-                .WithMany()
-                .HasForeignKey(o => o.UserId)
-                .OnDelete(DeleteBehavior.Restrict); // No cascade delete
+            //modelBuilder.Entity<Order>()
+            //    .HasOne(o => o.User)
+            //    .WithMany()
+            //    .HasForeignKey(o => o.User_Id)
+            //    .OnDelete(DeleteBehavior.Restrict); // No cascade delete
 
             // Đặt lại ON DELETE NO ACTION cho Orders -> Shippings
             //modelBuilder.Entity<Order>()
             //    .HasOne(o => o.Shipping)
             //    .WithMany()
-            //    .HasForeignKey(o => o.ShippingId)
+            //    .HasForeignKey(o => o.Shipping_Id)
             //    .OnDelete(DeleteBehavior.Restrict); // No cascade delete
 
-            //base.OnModelCreating(modelBuilder);
 
         }
        

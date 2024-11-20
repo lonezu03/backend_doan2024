@@ -1,12 +1,15 @@
-﻿namespace WebStore.Entity
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace WebStore.Entity
 {
+    
     public class OrderItem
     {
         public int Id { get; set; }
-        public int OrderId { get; set; }
-        public int InventoryId { get; set; }
+        public int Order_Id { get; set; }
+        public int Inventory_Id { get; set; }
 
-        public Order Order { get; set; }
+        public Orders Order { get; set; } // n-1 với Order
         public Inventory Inventory { get; set; }
     }
 }
