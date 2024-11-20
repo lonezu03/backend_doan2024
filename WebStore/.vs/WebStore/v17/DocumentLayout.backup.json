@@ -244,34 +244,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 215,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SizeController.cs",
-              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Controllers\\SizeController.cs",
-              "RelativeDocumentMoniker": "WebStore\\Controllers\\SizeController.cs",
-              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Controllers\\SizeController.cs",
-              "RelativeToolTip": "WebStore\\Controllers\\SizeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T08:55:56.099Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SizeService.cs",
-              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Service\\SizeService.cs",
-              "RelativeDocumentMoniker": "WebStore\\Service\\SizeService.cs",
-              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Service\\SizeService.cs",
-              "RelativeToolTip": "WebStore\\Service\\SizeService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T08:51:25.484Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 7,
@@ -369,11 +343,37 @@
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Program.cs",
               "RelativeDocumentMoniker": "WebStore\\Program.cs",
-              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Program.cs*",
-              "RelativeToolTip": "WebStore\\Program.cs*",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Program.cs",
+              "RelativeToolTip": "WebStore\\Program.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAAAEUAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-17T06:41:03.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SizeService.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Service\\SizeService.cs",
+              "RelativeDocumentMoniker": "WebStore\\Service\\SizeService.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Service\\SizeService.cs",
+              "RelativeToolTip": "WebStore\\Service\\SizeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T08:51:25.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SizeController.cs",
+              "DocumentMoniker": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Controllers\\SizeController.cs",
+              "RelativeDocumentMoniker": "WebStore\\Controllers\\SizeController.cs",
+              "ToolTip": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\Controllers\\SizeController.cs",
+              "RelativeToolTip": "WebStore\\Controllers\\SizeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T08:55:56.099Z",
               "EditorCaption": ""
             },
             {

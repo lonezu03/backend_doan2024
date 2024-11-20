@@ -4282,19 +4282,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\tuyet\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\WebStore.csproj",
+      "projectUniqueName": "E:\\vune\\nam4_hk1\\DOAN\\CN\\backend_doan2024\\WebStore\\WebStore\\WebStore.csproj",
       "projectName": "WebStore",
-      "projectPath": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\WebStore.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "F:\\hoc_tap\\lop\\hk1_nam4\\DOAN\\Minh\\WebStore\\WebStore\\obj\\",
+      "projectPath": "E:\\vune\\nam4_hk1\\DOAN\\CN\\backend_doan2024\\WebStore\\WebStore\\WebStore.csproj",
+      "packagesPath": "C:\\Users\\tuyet\\.nuget\\packages\\",
+      "outputPath": "E:\\vune\\nam4_hk1\\DOAN\\CN\\backend_doan2024\\WebStore\\WebStore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tuyet\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
