@@ -90,6 +90,122 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "WebStore.Controllers.DescriptionController",
+    "Method": "GetAll",
+    "RelativePath": "api/description",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebStore.Controllers.DescriptionController",
+    "Method": "Post",
+    "RelativePath": "api/description",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "descriptionDto",
+        "Type": "WebStore.DTO.DescriptionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebStore.Controllers.DescriptionController",
+    "Method": "GetById",
+    "RelativePath": "api/description/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebStore.Controllers.DescriptionController",
+    "Method": "DeleteById",
+    "RelativePath": "api/description/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebStore.Controllers.ImageController",
+    "Method": "GetAll",
+    "RelativePath": "api/image",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebStore.Controllers.ImageController",
+    "Method": "Post",
+    "RelativePath": "api/image",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "imageDto",
+        "Type": "WebStore.DTO.ImageDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebStore.Controllers.ImageController",
+    "Method": "GetImage",
+    "RelativePath": "api/image/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebStore.Controllers.ImageController",
+    "Method": "DeleteById",
+    "RelativePath": "api/image/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebStore.Controllers.OrderController",
     "Method": "GetAllOrders",
     "RelativePath": "api/order",
@@ -302,6 +418,80 @@
       {
         "Name": "request",
         "Type": "ApiWebQuanAo.Web.Controllers.RegisterRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebStore.Controllers.VariantController",
+    "Method": "GetAll",
+    "RelativePath": "api/variant",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebStore.Controllers.VariantController",
+    "Method": "Add",
+    "RelativePath": "api/variant",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "variant",
+        "Type": "WebStore.Entity.Variant",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebStore.Controllers.VariantController",
+    "Method": "GetById",
+    "RelativePath": "api/variant/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebStore.Controllers.VariantController",
+    "Method": "DeleteById",
+    "RelativePath": "api/variant/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebStore.Controllers.ImageController",
+    "Method": "GetById",
+    "RelativePath": "id/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],

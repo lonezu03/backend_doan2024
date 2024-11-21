@@ -69,6 +69,14 @@ builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<ISizeRepository, SizeRepository>();
 builder.Services.AddScoped<ISizeService, SizeService>();
 
+builder.Services.AddScoped<IDescriptionRepository, DescriptionRepository>();
+builder.Services.AddScoped<IDescriptionService,DescriptionService >();
+
+builder.Services.AddScoped<IImageRepository,ImageRepository >();
+builder.Services.AddScoped<IImageService, ImageService>();
+
+builder.Services.AddScoped<IVariantRepository, VariantRepository>();
+builder.Services.AddScoped<IVariantService, VariantService>();
 
 builder.Services.AddControllers();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>

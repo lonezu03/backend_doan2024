@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace WebStore.Migrations
 {
     /// <inheritdoc />
-    public partial class updateData : Migration
+    public partial class data : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -35,6 +35,20 @@ namespace WebStore.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Color", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Description",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Title = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Content = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Description", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -164,6 +178,7 @@ namespace WebStore.Migrations
                     Product_Id = table.Column<int>(type: "int", nullable: false),
                     Color_Id = table.Column<int>(type: "int", nullable: true),
                     Size_Id = table.Column<int>(type: "int", nullable: true),
+                    Description_Id = table.Column<int>(type: "int", nullable: false),
                     Category_Id = table.Column<int>(type: "int", nullable: true),
                     CategoryId = table.Column<int>(type: "int", nullable: false)
                 },
@@ -181,6 +196,12 @@ namespace WebStore.Migrations
                         column: x => x.Color_Id,
                         principalTable: "Color",
                         principalColumn: "Id");
+                    table.ForeignKey(
+                        name: "FK_Variant_Description_Description_Id",
+                        column: x => x.Description_Id,
+                        principalTable: "Description",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
                         name: "FK_Variant_Product_Product_Id",
                         column: x => x.Product_Id,
@@ -200,7 +221,7 @@ namespace WebStore.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Url = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Url = table.Column<byte[]>(type: "varbinary(max)", nullable: false),
                     Variant_Id = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
@@ -309,6 +330,11 @@ namespace WebStore.Migrations
                 column: "Color_Id");
 
             migrationBuilder.CreateIndex(
+                name: "IX_Variant_Description_Id",
+                table: "Variant",
+                column: "Description_Id");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Variant_Product_Id",
                 table: "Variant",
                 column: "Product_Id");
@@ -348,6 +374,9 @@ namespace WebStore.Migrations
 
             migrationBuilder.DropTable(
                 name: "Color");
+
+            migrationBuilder.DropTable(
+                name: "Description");
 
             migrationBuilder.DropTable(
                 name: "Product");

@@ -7,6 +7,8 @@ namespace WebStore.Context
 {
     public class ApplicationDbContext : DbContext
     {
+        private object d;
+
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
         public DbSet<User> Users { get; set; } // Ánh xạ tới bảng Users
         public DbSet<Gender> Gender { get; set; }
@@ -15,6 +17,8 @@ namespace WebStore.Context
         public DbSet<Color> Color { get; set; }
         public DbSet<Category> Category { get; set; }
         public DbSet<Product> Product { get; set; }
+
+        public DbSet<Description> Description { get; set; }
         public DbSet<Variant> Variant { get; set; }
         public DbSet<Image> Image { get; set; }
         public DbSet<Inventory> Inventory { get; set; }
@@ -63,11 +67,22 @@ namespace WebStore.Context
                 .WithMany(c => c.Variants)
                 .HasForeignKey(v => v.Color_Id);
 
+            // Variant - category (nhiều-1)
+            modelBuilder.Entity<Variant>()
+                .HasOne(v => v.Category)
+                .WithMany(c => c.Variants)
+                .HasForeignKey(v => v.Category_Id);
+
             // Variant - Size (nhiều-1)
             modelBuilder.Entity<Variant>()
                 .HasOne(v => v.Size)
                 .WithMany(s => s.Variants)
                 .HasForeignKey(v => v.Size_Id);
+            // Variant - description (nhiều-1)
+            modelBuilder.Entity<Variant>()
+                .HasOne(v => v.Description)
+                .WithMany(d => d.Variant)
+                .HasForeignKey(v => v.Description_Id);
 
             // Variant - Image (1-nhiều)
             modelBuilder.Entity<Variant>()

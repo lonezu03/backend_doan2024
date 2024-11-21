@@ -12,8 +12,8 @@ using WebStore.Context;
 namespace WebStore.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241120145220_updateData")]
-    partial class updateData
+    [Migration("20241121150122_data")]
+    partial class data
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -89,6 +89,27 @@ namespace WebStore.Migrations
                     b.ToTable("Color");
                 });
 
+            modelBuilder.Entity("WebStore.Entity.Description", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Content")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Description");
+                });
+
             modelBuilder.Entity("WebStore.Entity.Gender", b =>
                 {
                     b.Property<int>("Id")
@@ -114,9 +135,9 @@ namespace WebStore.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Url")
+                    b.Property<byte[]>("Url")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("varbinary(max)");
 
                     b.Property<int>("Variant_Id")
                         .HasColumnType("int");
@@ -306,6 +327,9 @@ namespace WebStore.Migrations
                     b.Property<int?>("Color_Id")
                         .HasColumnType("int");
 
+                    b.Property<int>("Description_Id")
+                        .HasColumnType("int");
+
                     b.Property<int>("Product_Id")
                         .HasColumnType("int");
 
@@ -317,6 +341,8 @@ namespace WebStore.Migrations
                     b.HasIndex("CategoryId");
 
                     b.HasIndex("Color_Id");
+
+                    b.HasIndex("Description_Id");
 
                     b.HasIndex("Product_Id");
 
@@ -399,7 +425,7 @@ namespace WebStore.Migrations
             modelBuilder.Entity("WebStore.Entity.Variant", b =>
                 {
                     b.HasOne("WebStore.Entity.Category", "Category")
-                        .WithMany()
+                        .WithMany("Variants")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -407,6 +433,12 @@ namespace WebStore.Migrations
                     b.HasOne("WebStore.Entity.Color", "Color")
                         .WithMany("Variants")
                         .HasForeignKey("Color_Id");
+
+                    b.HasOne("WebStore.Entity.Description", "Description")
+                        .WithMany("Variant")
+                        .HasForeignKey("Description_Id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("WebStore.Entity.Product", "Product")
                         .WithMany("Variants")
@@ -422,14 +454,26 @@ namespace WebStore.Migrations
 
                     b.Navigation("Color");
 
+                    b.Navigation("Description");
+
                     b.Navigation("Product");
 
                     b.Navigation("Size");
                 });
 
+            modelBuilder.Entity("WebStore.Entity.Category", b =>
+                {
+                    b.Navigation("Variants");
+                });
+
             modelBuilder.Entity("WebStore.Entity.Color", b =>
                 {
                     b.Navigation("Variants");
+                });
+
+            modelBuilder.Entity("WebStore.Entity.Description", b =>
+                {
+                    b.Navigation("Variant");
                 });
 
             modelBuilder.Entity("WebStore.Entity.Gender", b =>
