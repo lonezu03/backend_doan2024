@@ -14,11 +14,14 @@ namespace WebStore.Entity
         public int? Description_Id { get; set; }
         public int? Category_Id { get; set; }
 
+
         public Product Product { get; set; }
         public Color Color { get; set; }
         public Size Size { get; set; }
         public Category Category { get; set; }
         public Description Description { get; set; }
         public ICollection<Image> Images { get; set; }
+        public ICollection<Inventory> Inventories { get; set; }
+
     }
 }

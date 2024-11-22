@@ -10,5 +10,6 @@ namespace WebStore.Entity
         public int Quantity { get; set; }
 
         public Variant Variant { get; set; }
+        public Order_Item Order_Item { get; set; }
     }
 }

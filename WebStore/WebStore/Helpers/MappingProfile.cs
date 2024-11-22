@@ -8,7 +8,7 @@ namespace WebStore.Helpers
     {
         public MappingProfile() {
             // User
-            CreateMap<User, UserDto>().ReverseMap();
+            CreateMap<Users, UserDto>().ReverseMap();
 
             // Product
             CreateMap<Product, ProductDto>().ReverseMap();

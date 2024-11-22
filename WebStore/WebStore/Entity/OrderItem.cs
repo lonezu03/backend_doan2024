@@ -2,8 +2,7 @@
 
 namespace WebStore.Entity
 {
-    
-    public class OrderItem
+    public class Order_Item
     {
         public int Id { get; set; }
         public int Order_Id { get; set; }

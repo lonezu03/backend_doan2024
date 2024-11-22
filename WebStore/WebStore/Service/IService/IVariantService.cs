@@ -1,12 +1,13 @@
-﻿using WebStore.Entity;
+﻿using WebStore.DTO;
+using WebStore.Entity;
 
 namespace WebStore.Service.IService
 {
     public interface IVariantService
     {
-        Task<List<Variant>> GetAllAsync();
-        Task<Variant> GetByIdAsync(int id);
-        Task AddAsync(Variant variant);
+        Task<List<VariantDto>> GetAllAsync();
+        Task<VariantDto> GetByIdAsync(int id);
+        Task AddAsync(VariantDto variant);
         Task DeleteByIdAsync(int id);
     }
 

@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using WebStore.DTO;
 using WebStore.Entity;
 using WebStore.Service.IService;
 
@@ -35,7 +36,7 @@ namespace WebStore.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Add([FromBody] Variant variant)
+        public async Task<IActionResult> Add([FromBody] VariantDto variant)
         {
             await _variantService.AddAsync(variant);
             return CreatedAtAction(nameof(GetById), new { id = variant.Id }, variant);
