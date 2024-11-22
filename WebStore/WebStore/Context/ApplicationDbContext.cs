@@ -99,19 +99,33 @@ namespace WebStore.Context
             //    .WithMany()
             //    .HasForeignKey(o => o.Shipping_Id)
             //    .OnDelete(DeleteBehavior.Restrict); // No cascade delete
+           //orders voi orderitem 1:n
             modelBuilder.Entity<Orders>()
                 .HasMany(o => o.OrderItem)        
                 .WithOne(oi => oi.Order)           
                 .HasForeignKey(oi => oi.Order_Id);
+            // order_item vơi inventory 1:1
             modelBuilder.Entity<Order_Item>()
                 .HasOne(o => o.Inventory)
                 .WithOne(i => i.Order_Item)
                 .HasForeignKey<Order_Item>(o => o.Inventory_Id);
+            // variant voi inventory 1:n
             modelBuilder.Entity<Variant>()
                     .HasMany(v => v.Inventories)
                     .WithOne(i => i.Variant)
                     .HasForeignKey(i => i.Variant_Id);
-
+            // variant voi category n:1
+            modelBuilder.Entity<Variant>()
+                .HasOne(v => v.Category)           
+                .WithMany(c => c.Variants)         
+                .HasForeignKey(v => v.Category_Id) 
+                .OnDelete(DeleteBehavior.Restrict);
+            // variant voi description n:1
+            modelBuilder.Entity<Variant>()
+                .HasOne(v => v.Description)
+                .WithMany(c => c.Variant)
+                .HasForeignKey(v => v.Description_Id)
+                .OnDelete(DeleteBehavior.Restrict);
         }
 
 
