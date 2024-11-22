@@ -9,9 +9,9 @@ namespace WebStore.Reposiroty.Interface
 {
     public interface IUserRepository
     {
-        Task AddAsync(User user); // Thêm người dùng
-        Task<User> GetByEmailAsync(string email); // Lấy người dùng qua email
+        Task AddAsync(Users user); // Thêm người dùng
+        Task<Users> GetByEmailAsync(string email); // Lấy người dùng qua email
 
-        Task<List<User>> GetAllUsersAsync();
+        Task<List<Users>> GetAllUsersAsync();
     }
 }

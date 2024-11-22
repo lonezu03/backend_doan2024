@@ -117,7 +117,7 @@ namespace WebStore.Service
                 return false;
 
             var hashedPassword = BCrypt.Net.BCrypt.HashPassword(password);
-            var user = new User
+            var user = new Users
             {
                 Email = email,
                 Password = hashedPassword,

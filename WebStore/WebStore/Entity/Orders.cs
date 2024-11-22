@@ -10,8 +10,8 @@ namespace WebStore.Entity
         public int Shipping_Id { get; set; }
         public DateTime Date { get; set; }
 
-        //public User User { get; set; }
+        public Users Users { get; set; }
         //public Shipping Shipping { get; set; }
-        //public ICollection<OrderItem> OrderItems { get; set; }// 1-n
+        public ICollection<Order_Item> OrderItem { get; set; }// 1-n
     }
 }

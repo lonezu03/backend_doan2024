@@ -21,16 +21,16 @@ namespace WebStore.Repository
             _context = context;
         }
 
-        public async Task AddAsync(User user)
+        public async Task AddAsync(Users user)
         {
             await _context.Users.AddAsync(user);
             await _context.SaveChangesAsync();
         }
-        public async Task<List<User>> GetAllUsersAsync()
+        public async Task<List<Users>> GetAllUsersAsync()
         {
             return await _context.Users.ToListAsync();
         }
-        public async Task<User> GetByEmailAsync(string email)
+        public async Task<Users> GetByEmailAsync(string email)
         {
             return await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
         }

@@ -10,7 +10,7 @@ namespace WebStore.Context
         private object d;
 
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
-        public DbSet<User> Users { get; set; } // Ánh xạ tới bảng Users
+        public DbSet<Users> Users { get; set; } // Ánh xạ tới bảng Users
         public DbSet<Gender> Gender { get; set; }
         public DbSet<Size> Size { get; set; }
         public DbSet<Material> Materials { get; set; }
@@ -25,7 +25,7 @@ namespace WebStore.Context
         public DbSet<Address> Address { get; set; }
        // public DbSet<Shipping> Shippings { get; set; }
         public DbSet<Orders> Orders { get; set; }
-        public DbSet<OrderItem> OrderItem { get; set; }
+        public DbSet<Order_Item> Order_Item { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -48,13 +48,10 @@ namespace WebStore.Context
                 .HasForeignKey(v => v.Product_Id); // Khóa ngoại ở bảng Variant trỏ tới Product
             modelBuilder.Entity<Address>()
                 .HasOne(a => a.User)
-                .WithMany(a => a.Addresses)
-                .HasForeignKey(a => a.UserId)
+                .WithMany(a => a.Address)
+                .HasForeignKey(a => a.User_Id)
                  .OnDelete(DeleteBehavior.Restrict);
-            modelBuilder.Entity<User>()
-           .HasMany(u => u.Addresses)
-           .WithOne(a => a.User)
-           .HasForeignKey(a => a.UserId);
+            
 
             modelBuilder.Entity<Product>()
            .HasMany(p => p.Variants)
@@ -89,13 +86,12 @@ namespace WebStore.Context
                 .HasMany(v => v.Images)
                 .WithOne(i => i.Variant)
                 .HasForeignKey(i => i.Variant_Id);
-            
+            // User - orders (1-nhiều)
+            modelBuilder.Entity<Users>()
+                .HasMany(v => v.orders)
+                .WithOne(i => i.Users)
+                .HasForeignKey(i => i.User_Id);
 
-            //modelBuilder.Entity<Order>()
-            //    .HasOne(o => o.User)
-            //    .WithMany()
-            //    .HasForeignKey(o => o.User_Id)
-            //    .OnDelete(DeleteBehavior.Restrict); // No cascade delete
 
             // Đặt lại ON DELETE NO ACTION cho Orders -> Shippings
             //modelBuilder.Entity<Order>()
@@ -103,10 +99,21 @@ namespace WebStore.Context
             //    .WithMany()
             //    .HasForeignKey(o => o.Shipping_Id)
             //    .OnDelete(DeleteBehavior.Restrict); // No cascade delete
-
+            modelBuilder.Entity<Orders>()
+                .HasMany(o => o.OrderItem)        
+                .WithOne(oi => oi.Order)           
+                .HasForeignKey(oi => oi.Order_Id);
+            modelBuilder.Entity<Order_Item>()
+                .HasOne(o => o.Inventory)
+                .WithOne(i => i.Order_Item)
+                .HasForeignKey<Order_Item>(o => o.Inventory_Id);
+            modelBuilder.Entity<Variant>()
+                    .HasMany(v => v.Inventories)
+                    .WithOne(i => i.Variant)
+                    .HasForeignKey(i => i.Variant_Id);
 
         }
-       
+
 
     }
 }
