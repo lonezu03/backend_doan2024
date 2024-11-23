@@ -22,6 +22,17 @@ namespace WebStore.Helpers
             CreateMap<Size, SizeDto>().ReverseMap();
             //category
             CreateMap<Category, CategoryDto>().ReverseMap();
+            //variant
+            CreateMap<Variant, VariantDto>().ReverseMap();
+            //img
+            CreateMap<Image,ImageDto>().ReverseMap();
+            //Description
+            CreateMap<Description, DescriptionDto>().ReverseMap();
+            //Material
+            CreateMap<Material, MaterialDto>().ReverseMap();
+            //Gender
+            CreateMap<Gender, GenderDto>().ReverseMap();
+
             
         }
     }
