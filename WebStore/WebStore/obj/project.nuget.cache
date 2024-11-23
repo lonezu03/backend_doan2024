@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h43EYLTJWyY=",
+  "dgSpecHash": "7OgKs73Chn/nvR8o3Q5YqqIws0vqWWnRDfWA9oupzPZDt8VJod943ibu4kRKfb6CesLw2Y+Wxl4liFv4bmGk4Q==",
   "success": true,
-  "projectFilePath": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\WebStore.csproj",
+  "projectFilePath": "D:\\GITHUB\\backend_doan2024\\WebStore\\WebStore\\WebStore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\automapper\\10.1.0\\automapper.10.1.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
