@@ -32,8 +32,9 @@ namespace WebStore.Helpers
             CreateMap<Material, MaterialDto>().ReverseMap();
             //Gender
             CreateMap<Gender, GenderDto>().ReverseMap();
+            //Product
+            CreateMap<Product, ProductDto>().ReverseMap();
 
-            
         }
     }
 

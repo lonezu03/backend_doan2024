@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebStore.Context;
+using WebStore.DTO;
 using WebStore.Entity;
 using WebStore.Service.IService;
 
@@ -14,31 +15,49 @@ namespace ApiWebQuanAo.Web.Controllers
     {
         private readonly IProductService _productService;
 
-        
-        private readonly ApplicationDbContext _context;
-
-        public ProductController(ApplicationDbContext context)
+        public ProductController(IProductService productService)
         {
-            _context = context;
+            _productService = productService;
         }
 
-        // GET: api/Product
+
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
+        public async Task<ActionResult<IEnumerable<ProductDto>>> GetProducts()
         {
-            var products = await _context.Product
-                .Include(p => p.Material)
-                .Include(p => p.Gender)
-                .ToListAsync();
-
-            if (products == null || !products.Any())
-            {
-                return NotFound("No products found.");
-            }
-
+            var products = await _productService.GetAllProductsAsync();
             return Ok(products);
         }
-        
+        [HttpGet("{id}")]
+        public async Task<ActionResult<ProductDto>> GetProduct(int id)
+        {
+            var product = await _productService.GetProductByIdAsync(id);
+            if (product == null)
+                return NotFound();
+
+            return Ok(product);
+        }
+        [HttpPost]
+        public async Task<IActionResult> CreateProduct(ProductDto productDto)
+        {
+            await _productService.CreateProductAsync(productDto);
+            return CreatedAtAction(nameof(GetProduct), new { id = productDto.Id }, productDto);
+        }
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateProduct(int id, ProductDto productDto)
+        {
+            if (id != productDto.Id)
+                return BadRequest();
+
+            await _productService.UpdateProductAsync(productDto);
+            return NoContent();
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteProduct(int id)
+        {
+            await _productService.DeleteProductAsync(id);
+            return NoContent();
+        }
 
     }
 
