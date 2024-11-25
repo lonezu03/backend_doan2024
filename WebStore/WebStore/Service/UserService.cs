@@ -48,32 +48,34 @@ namespace WebStore.Service
         public async Task<LoginResponse> LoginAsync(string email, string password)
         {
             // Lấy người dùng theo email
-            var user = await _userRepository.GetByEmailAsync(email);
+            var User = await _userRepository.GetByEmailAsync(email);
 
             // Kiểm tra thông tin đăng nhập
-            if (user == null || !BCrypt.Net.BCrypt.Verify(password, user.Password))
+            if (User == null || !BCrypt.Net.BCrypt.Verify(password, User.Password))
             {
                 return null; // Thông tin không hợp lệ
             }
 
             // Tạo token JWT
-            var token = GenerateJwtToken(user.Email);
+            var token = GenerateJwtToken(User);
 
             // Trả về thông tin người dùng kèm token
             return new LoginResponse
             {
                 User = new UserResponse
                 {
-                    Id = user.Id,
-                    Email = user.Email,
-                    Username = user.Username
+                    Id = User.Id,
+                    Email = User.Email,
+                    Username = User.Username
                 },
                 Token = token.Token,
                 Expiration = token.Expiration
             };
         }
 
-        private LoginResponse GenerateJwtToken(string email)
+       
+
+        private LoginResponse GenerateJwtToken(Users user)
         {
             var jwtConfig = _configuration.GetSection("Jwt");
             var key = Encoding.UTF8.GetBytes(jwtConfig["Key"]);
@@ -81,9 +83,12 @@ namespace WebStore.Service
             // Create claims
             var claims = new[]
             {
-            new Claim(JwtRegisteredClaimNames.Sub, email),
+            new Claim(JwtRegisteredClaimNames.Sub, user.Email),
+            new Claim("id", user.Id.ToString()),               // ID người dùng
+            new Claim("name", user.Username),                  // Tên người dùng
+            new Claim("created_at", DateTime.UtcNow.ToString("o")), // Ngày tạo token (ISO 8601)
             new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
-            new Claim(ClaimTypes.Name, email)
+            new Claim(ClaimTypes.Name, user.Email)
         };
 
             // Signing credentials
@@ -133,13 +138,6 @@ namespace WebStore.Service
 
 
 
-        //    public async Task<bool> LoginAsync(string email, string password)
-        //    {
-        //        var user = await _userRepository.GetByEmailAsync(email);
-        //        if (user == null)
-        //            return false; // User không tồn tại
-
-        //        return BCrypt.Net.BCrypt.Verify(password, user.Password);
-        //    }
+       
     }
     }
