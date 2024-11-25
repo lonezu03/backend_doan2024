@@ -17,6 +17,48 @@ namespace WebStore.Reposiroty
         {
             _context = context;
         }
+<<<<<<< Updated upstream
+=======
+        public async Task<List<Product>> GetAllAsync()
+        {
+            return await _context.Product
+                .Include(p => p.Material)
+                .Include(p => p.Material)
+                .Include(p => p.Variants)
+                .ToListAsync();
+        }
+        public async Task<Product> GetByIdAsync(int id)
+        {
+            return await _context.Product
+                .Include(p => p.Material)
+                .Include(p => p.Material)
+                .Include(p => p.Variants)
+                .FirstOrDefaultAsync(p => p.Id == id);
+        }
+        public async Task AddAsync(Product product)
+        {
+            await _context.Product.AddAsync(product);
+        }
+
+        public async Task UpdateAsync(Product product)
+        {
+            _context.Product.Update(product);
+        }
+
+        public async Task DeleteByIdAsync(int id)
+        {
+            var product = await GetByIdAsync(id);
+            if (product != null)
+            {
+                _context.Product.Remove(product);
+            }
+        }
+
+        public async Task SaveChangesAsync()
+        {
+            await _context.SaveChangesAsync();
+        }
+>>>>>>> Stashed changes
 
     }
 }

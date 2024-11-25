@@ -57,7 +57,11 @@ namespace WebStore.Service
             }
 
             // Tạo token JWT
+<<<<<<< Updated upstream
             var token = GenerateJwtToken(User);
+=======
+            var token = GenerateJwtToken(user);
+>>>>>>> Stashed changes
 
             // Trả về thông tin người dùng kèm token
             return new LoginResponse
@@ -73,8 +77,11 @@ namespace WebStore.Service
             };
         }
 
+<<<<<<< Updated upstream
        
 
+=======
+>>>>>>> Stashed changes
         private LoginResponse GenerateJwtToken(Users user)
         {
             var jwtConfig = _configuration.GetSection("Jwt");
@@ -84,9 +91,15 @@ namespace WebStore.Service
             var claims = new[]
             {
             new Claim(JwtRegisteredClaimNames.Sub, user.Email),
+<<<<<<< Updated upstream
             new Claim("id", user.Id.ToString()),               // ID người dùng
             new Claim("name", user.Username),                  // Tên người dùng
             new Claim("created_at", DateTime.UtcNow.ToString("o")), // Ngày tạo token (ISO 8601)
+=======
+            new Claim("id", user.Id.ToString()),
+            new Claim("name", user.Username),
+            new Claim("created_at", DateTime.UtcNow.ToString("o")),
+>>>>>>> Stashed changes
             new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
             new Claim(ClaimTypes.Name, user.Email)
         };
