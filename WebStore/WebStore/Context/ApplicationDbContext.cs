@@ -13,7 +13,7 @@ namespace WebStore.Context
         public DbSet<Users> Users { get; set; } // Ánh xạ tới bảng Users
         public DbSet<Gender> Gender { get; set; }
         public DbSet<Size> Size { get; set; }
-        public DbSet<Material> Materials { get; set; }
+        public DbSet<Material> Material { get; set; }
         public DbSet<Color> Color { get; set; }
         public DbSet<Category> Category { get; set; }
         public DbSet<Product> Product { get; set; }
