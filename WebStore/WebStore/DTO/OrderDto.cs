@@ -7,7 +7,7 @@
         public int Shipping_Id { get; set; }
         public DateTime Date { get; set; }
 
-        public string UserName { get; set; }
-        public string ShippingAddress { get; set; }
+        public string? UserName { get; set; }
+        public string? ShippingAddress { get; set; }
     }
 }
