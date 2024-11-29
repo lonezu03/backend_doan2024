@@ -58,6 +58,20 @@ namespace ApiWebQuanAo.Web.Controllers
             await _productService.DeleteProductAsync(id);
             return NoContent();
         }
+        [HttpGet("GetAllWithVariants")]
+        public async Task<IActionResult> GetAllWithVariants()
+        {
+            try
+            {
+                var products = await _productService.GetAllProductsWithVariantsAsync();
+                return Ok(products);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { error = ex.Message });
+            }
+        }
+
 
     }
 
