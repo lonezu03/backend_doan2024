@@ -15,6 +15,8 @@ namespace WebStore.Reposiroty.Interface
         Task UpdateAsync(Product product);
         Task DeleteByIdAsync(int id);
         Task SaveChangesAsync();
+        Task<List<Product>> GetAllWithVariantsAsync();
+
     }
 
 }

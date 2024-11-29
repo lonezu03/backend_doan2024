@@ -9,8 +9,8 @@ namespace WebStore.DTO
         public int Material_Id { get; set; }
         public int Gender_Id { get; set; }
 
-        public Material Material { get; set; }
-        public Gender Gender { get; set; }
-        public ICollection<Variant> Variants { get; set; }
+      // public Material Material { get; set; }
+      //  public Gender Gender { get; set; }
+       // public ICollection<Variant> Variants { get; set; }
     }
 }

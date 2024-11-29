@@ -57,6 +57,21 @@ namespace WebStore.Reposiroty
         {
             await _context.SaveChangesAsync();
         }
+        public async Task<List<Product>> GetAllWithVariantsAsync()
+        {
+            return await _context.Product
+                .Include(p => p.Variants)
+                    .ThenInclude(v => v.Color)
+                .Include(p => p.Variants)
+                    .ThenInclude(v => v.Size)
+                .Include(p => p.Variants)
+                    .ThenInclude(v => v.Description)
+                .Include(p => p.Variants)
+                    .ThenInclude(v => v.Category)
+                .Include(p => p.Variants)
+                    .ThenInclude(v => v.Images)
+                .ToListAsync();
+        }
 
     }
 }

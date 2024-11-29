@@ -47,6 +47,44 @@ namespace WebStore.Service
         {
             await _productRepository.DeleteByIdAsync(id);
         }
+        public async Task<IEnumerable<object>> GetAllProductsWithVariantsAsync()
+        {
+            var products = await _productRepository.GetAllWithVariantsAsync();
+
+            return products.Select(p => new
+            {
+                id = p.Id,
+                name = p.Name,
+                colors = p.Variants
+                    .Select(v => new { id = v.Color.Id, name = v.Color.Name })
+                    .Distinct()
+                    .ToList(),
+                sizes = p.Variants
+                    .Select(v => new { id = v.Size.Id, name = v.Size.Name })
+                    .Distinct()
+                    .ToList(),
+                images = p.Variants
+                    .SelectMany(v => v.Images)
+                    .Select(i => new { id = i.Id, url = i.Url })
+                    .Distinct()
+                    .ToList(),
+                description = p.Variants
+                    .Select(v => v.Description)
+                    .Distinct()
+                    .Select(d => new { id = d.Id, title = d.Title, content = d.Content })
+
+                    .FirstOrDefault(),
+                variants = p.Variants.Select(v => new
+                {
+                    id = v.Id,
+                    color_id = v.Color_Id,
+                    size_id = v.Size_Id,
+                    description_id = v.Description_Id,
+                    category_id = v.Category_Id
+                }).ToList()
+            });
+        }
+
     }
 
 }
