@@ -26,12 +26,27 @@ namespace WebStore.Reposiroty
                 .Include(p => p.Variants)
                 .ToListAsync();
         }
+        //public async Task<Product> GetByIdAsync(int id)
+        //{
+        //    return await _context.Product
+        //        .Include(p => p.Material)
+        //        .Include(p => p.Gender)
+        //        .Include(p => p.Variants)
+        //        .FirstOrDefaultAsync(p => p.Id == id);
+        //}
         public async Task<Product> GetByIdAsync(int id)
         {
             return await _context.Product
-                .Include(p => p.Material)
-                .Include(p => p.Gender)
+                 .Include(p => p.Variants)
+                    .ThenInclude(v => v.Color)
                 .Include(p => p.Variants)
+                    .ThenInclude(v => v.Size)
+                .Include(p => p.Variants)
+                    .ThenInclude(v => v.Description)
+                .Include(p => p.Variants)
+                    .ThenInclude(v => v.Category)
+                .Include(p => p.Variants)
+                    .ThenInclude(v => v.Images)
                 .FirstOrDefaultAsync(p => p.Id == id);
         }
         public async Task AddAsync(Product product)

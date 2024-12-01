@@ -3,112 +3,28 @@
   "WorkspaceRootPath": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\projec\\github\\backend_doan2024\\webstore\\webstore\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\projec\\github\\backend_doan2024\\webstore\\webstore\\controllers\\descriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\controllers\\descriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\projec\\github\\backend_doan2024\\webstore\\webstore\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\projec\\github\\backend_doan2024\\webstore\\webstore\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\projec\\github\\backend_doan2024\\webstore\\webstore\\entity\\description.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\entity\\description.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\projec\\github\\backend_doan2024\\webstore\\webstore\\entity\\variant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\entity\\variant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\projec\\github\\backend_doan2024\\webstore\\webstore\\service\\iservice\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\service\\iservice\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\projec\\github\\backend_doan2024\\webstore\\webstore\\repository\\interface\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\repository\\interface\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\projec\\github\\backend_doan2024\\webstore\\webstore\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\projec\\github\\backend_doan2024\\webstore\\webstore\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\projec\\github\\backend_doan2024\\webstore\\webstore\\service\\iservice\\updateorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\service\\iservice\\updateorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\projec\\github\\backend_doan2024\\webstore\\webstore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\projec\\github\\backend_doan2024\\webstore\\webstore\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\projec\\github\\backend_doan2024\\webstore\\webstore\\service\\variantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\service\\variantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\projec\\github\\backend_doan2024\\webstore\\webstore\\dto\\variantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\dto\\variantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\projec\\github\\backend_doan2024\\webstore\\webstore\\controllers\\variantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\controllers\\variantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\projec\\github\\backend_doan2024\\webstore\\webstore\\service\\iservice\\ivariantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\service\\iservice\\ivariantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\projec\\github\\backend_doan2024\\webstore\\webstore\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\projec\\github\\backend_doan2024\\webstore\\webstore\\service\\descriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\service\\descriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\projec\\github\\backend_doan2024\\webstore\\webstore\\service\\colorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\service\\colorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\projec\\github\\backend_doan2024\\webstore\\webstore\\entity\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\entity\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\projec\\github\\backend_doan2024\\webstore\\webstore\\service\\orderitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\service\\orderitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\projec\\github\\backend_doan2024\\webstore\\webstore\\entity\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\entity\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Migrations\\20241201164859_datamigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebStore\\Migrations\\20241201164859_datamigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\projec\\github\\backend_doan2024\\webstore\\webstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\projec\\github\\backend_doan2024\\webstore\\webstore\\repository\\inventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\repository\\inventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\projec\\github\\backend_doan2024\\webstore\\webstore\\entity\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\entity\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\projec\\github\\backend_doan2024\\webstore\\webstore\\repository\\orderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\repository\\orderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\projec\\github\\backend_doan2024\\webstore\\webstore\\dto\\imagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\dto\\imagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\projec\\github\\backend_doan2024\\webstore\\webstore\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\projec\\github\\backend_doan2024\\webstore\\webstore\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|f:\\projec\\github\\backend_doan2024\\webstore\\webstore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C3ED675C-E395-47EB-B842-66FAAF10C58D}|WebStore\\WebStore.csproj|solutionrelative:webstore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -118,332 +34,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 215,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DescriptionController.cs",
-              "DocumentMoniker": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Controllers\\DescriptionController.cs",
-              "RelativeDocumentMoniker": "WebStore\\Controllers\\DescriptionController.cs",
-              "ToolTip": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Controllers\\DescriptionController.cs",
-              "RelativeToolTip": "WebStore\\Controllers\\DescriptionController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T16:35:24.346Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "WebStore\\Controllers\\ProductController.cs",
-              "ToolTip": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "WebStore\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAADwAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T15:50:31.273Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Repository\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "WebStore\\Repository\\ProductRepository.cs",
-              "ToolTip": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Repository\\ProductRepository.cs",
-              "RelativeToolTip": "WebStore\\Repository\\ProductRepository.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAwwDsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T12:39:25.077Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Service\\ProductService.cs",
-              "RelativeDocumentMoniker": "WebStore\\Service\\ProductService.cs",
-              "ToolTip": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Service\\ProductService.cs",
-              "RelativeToolTip": "WebStore\\Service\\ProductService.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAuwEkAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T12:39:05.367Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Service\\IService\\IProductService.cs",
-              "RelativeDocumentMoniker": "WebStore\\Service\\IService\\IProductService.cs",
-              "ToolTip": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Service\\IService\\IProductService.cs",
-              "RelativeToolTip": "WebStore\\Service\\IService\\IProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T12:38:57.253Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UpdateOrderDto.cs",
-              "DocumentMoniker": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Service\\IService\\UpdateOrderDto.cs",
-              "RelativeDocumentMoniker": "WebStore\\Service\\IService\\UpdateOrderDto.cs",
-              "ToolTip": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Service\\IService\\UpdateOrderDto.cs",
-              "RelativeToolTip": "WebStore\\Service\\IService\\UpdateOrderDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T12:38:46.878Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ImageController.cs",
-              "DocumentMoniker": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Controllers\\ImageController.cs",
-              "RelativeDocumentMoniker": "WebStore\\Controllers\\ImageController.cs",
-              "ToolTip": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Controllers\\ImageController.cs",
-              "RelativeToolTip": "WebStore\\Controllers\\ImageController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowDIAAABFAAAAAAAAAA==",
+              "Title": "20241201164859_datamigration.cs",
+              "DocumentMoniker": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Migrations\\20241201164859_datamigration.cs",
+              "RelativeDocumentMoniker": "WebStore\\Migrations\\20241201164859_datamigration.cs",
+              "ToolTip": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Migrations\\20241201164859_datamigration.cs",
+              "RelativeToolTip": "WebStore\\Migrations\\20241201164859_datamigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T13:46:33.909Z",
+              "WhenOpened": "2024-12-01T16:48:59.605Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Repository\\Interface\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "WebStore\\Repository\\Interface\\IProductRepository.cs",
-              "ToolTip": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Repository\\Interface\\IProductRepository.cs",
-              "RelativeToolTip": "WebStore\\Repository\\Interface\\IProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T15:24:46.802Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\appsettings.json",
-              "RelativeDocumentMoniker": "WebStore\\appsettings.json",
-              "ToolTip": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\appsettings.json",
-              "RelativeToolTip": "WebStore\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAACJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-28T12:38:24.104Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Description.cs",
-              "DocumentMoniker": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Entity\\Description.cs",
-              "RelativeDocumentMoniker": "WebStore\\Entity\\Description.cs",
-              "ToolTip": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Entity\\Description.cs",
-              "RelativeToolTip": "WebStore\\Entity\\Description.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T14:30:09.781Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IVariantService.cs",
-              "DocumentMoniker": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Service\\IService\\IVariantService.cs",
-              "RelativeDocumentMoniker": "WebStore\\Service\\IService\\IVariantService.cs",
-              "ToolTip": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Service\\IService\\IVariantService.cs",
-              "RelativeToolTip": "WebStore\\Service\\IService\\IVariantService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T07:20:26.636Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Variant.cs",
-              "DocumentMoniker": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Entity\\Variant.cs",
-              "RelativeDocumentMoniker": "WebStore\\Entity\\Variant.cs",
-              "ToolTip": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Entity\\Variant.cs",
-              "RelativeToolTip": "WebStore\\Entity\\Variant.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T07:06:03.205Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ProductDto.cs",
-              "DocumentMoniker": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\DTO\\ProductDto.cs",
-              "RelativeDocumentMoniker": "WebStore\\DTO\\ProductDto.cs",
-              "ToolTip": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\DTO\\ProductDto.cs",
-              "RelativeToolTip": "WebStore\\DTO\\ProductDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T12:42:52.424Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ColorService.cs",
-              "DocumentMoniker": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Service\\ColorService.cs",
-              "RelativeDocumentMoniker": "WebStore\\Service\\ColorService.cs",
-              "ToolTip": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Service\\ColorService.cs",
-              "RelativeToolTip": "WebStore\\Service\\ColorService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T07:16:42.87Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "VariantDto.cs",
-              "DocumentMoniker": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\DTO\\VariantDto.cs",
-              "RelativeDocumentMoniker": "WebStore\\DTO\\VariantDto.cs",
-              "ToolTip": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\DTO\\VariantDto.cs",
-              "RelativeToolTip": "WebStore\\DTO\\VariantDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T07:14:12.095Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "DescriptionService.cs",
-              "DocumentMoniker": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Service\\DescriptionService.cs",
-              "RelativeDocumentMoniker": "WebStore\\Service\\DescriptionService.cs",
-              "ToolTip": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Service\\DescriptionService.cs",
-              "RelativeToolTip": "WebStore\\Service\\DescriptionService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T07:11:17.109Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "VariantService.cs",
-              "DocumentMoniker": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Service\\VariantService.cs",
-              "RelativeDocumentMoniker": "WebStore\\Service\\VariantService.cs",
-              "ToolTip": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Service\\VariantService.cs",
-              "RelativeToolTip": "WebStore\\Service\\VariantService.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowCwAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T07:10:31.953Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Inventory.cs",
-              "DocumentMoniker": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Entity\\Inventory.cs",
-              "RelativeDocumentMoniker": "WebStore\\Entity\\Inventory.cs",
-              "ToolTip": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Entity\\Inventory.cs",
-              "RelativeToolTip": "WebStore\\Entity\\Inventory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T06:57:00.481Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Context\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "WebStore\\Context\\ApplicationDbContext.cs",
-              "ToolTip": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Context\\ApplicationDbContext.cs",
-              "RelativeToolTip": "WebStore\\Context\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAAwHYAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T06:56:11.868Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "VariantController.cs",
-              "DocumentMoniker": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Controllers\\VariantController.cs",
-              "RelativeDocumentMoniker": "WebStore\\Controllers\\VariantController.cs",
-              "ToolTip": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Controllers\\VariantController.cs",
-              "RelativeToolTip": "WebStore\\Controllers\\VariantController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T07:23:27.811Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Service\\OrderService.cs",
-              "RelativeDocumentMoniker": "WebStore\\Service\\OrderService.cs",
-              "ToolTip": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Service\\OrderService.cs",
-              "RelativeToolTip": "WebStore\\Service\\OrderService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T07:16:58.262Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "OrderItem.cs",
-              "DocumentMoniker": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Entity\\OrderItem.cs",
-              "RelativeDocumentMoniker": "WebStore\\Entity\\OrderItem.cs",
-              "ToolTip": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Entity\\OrderItem.cs",
-              "RelativeToolTip": "WebStore\\Entity\\OrderItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T06:56:05.935Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "InventoryRepository.cs",
-              "DocumentMoniker": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Repository\\InventoryRepository.cs",
-              "RelativeDocumentMoniker": "WebStore\\Repository\\InventoryRepository.cs",
-              "ToolTip": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Repository\\InventoryRepository.cs",
-              "RelativeToolTip": "WebStore\\Repository\\InventoryRepository.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBoAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T06:32:12.592Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Program.cs",
               "RelativeDocumentMoniker": "WebStore\\Program.cs",
               "ToolTip": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Program.cs",
               "RelativeToolTip": "WebStore\\Program.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAgwFcAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAuwCIAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T06:30:52.756Z"
+              "WhenOpened": "2024-12-01T16:19:44.295Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "OrderRepository.cs",
-              "DocumentMoniker": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Repository\\OrderRepository.cs",
-              "RelativeDocumentMoniker": "WebStore\\Repository\\OrderRepository.cs",
-              "ToolTip": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Repository\\OrderRepository.cs",
-              "RelativeToolTip": "WebStore\\Repository\\OrderRepository.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T06:20:24.93Z"
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\appsettings.json",
+              "RelativeDocumentMoniker": "WebStore\\appsettings.json",
+              "ToolTip": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\appsettings.json",
+              "RelativeToolTip": "WebStore\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-01T16:27:07.663Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "OrderItemService.cs",
-              "DocumentMoniker": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Service\\OrderItemService.cs",
-              "RelativeDocumentMoniker": "WebStore\\Service\\OrderItemService.cs",
-              "ToolTip": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Service\\OrderItemService.cs",
-              "RelativeToolTip": "WebStore\\Service\\OrderItemService.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwCUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Image.cs",
+              "DocumentMoniker": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Entity\\Image.cs",
+              "RelativeDocumentMoniker": "WebStore\\Entity\\Image.cs",
+              "ToolTip": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Entity\\Image.cs",
+              "RelativeToolTip": "WebStore\\Entity\\Image.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T06:19:59.829Z"
+              "WhenOpened": "2024-12-01T15:57:53.342Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "OrderItemRepository.cs",
-              "DocumentMoniker": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Repository\\OrderItemRepository.cs",
-              "RelativeDocumentMoniker": "WebStore\\Repository\\OrderItemRepository.cs",
-              "ToolTip": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Repository\\OrderItemRepository.cs",
-              "RelativeToolTip": "WebStore\\Repository\\OrderItemRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ImageDto.cs",
+              "DocumentMoniker": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\DTO\\ImageDto.cs",
+              "RelativeDocumentMoniker": "WebStore\\DTO\\ImageDto.cs",
+              "ToolTip": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\DTO\\ImageDto.cs",
+              "RelativeToolTip": "WebStore\\DTO\\ImageDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T06:19:31.448Z"
+              "WhenOpened": "2024-12-01T15:57:51.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ImageController.cs",
+              "DocumentMoniker": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Controllers\\ImageController.cs",
+              "RelativeDocumentMoniker": "WebStore\\Controllers\\ImageController.cs",
+              "ToolTip": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\Controllers\\ImageController.cs",
+              "RelativeToolTip": "WebStore\\Controllers\\ImageController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T15:56:21.472Z",
+              "EditorCaption": ""
             }
           ]
         }

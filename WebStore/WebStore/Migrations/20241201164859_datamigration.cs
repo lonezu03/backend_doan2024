@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace WebStore.Migrations
 {
     /// <inheritdoc />
-    public partial class DataUpdate : Migration
+    public partial class datamigration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -65,7 +65,7 @@ namespace WebStore.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Materials",
+                name: "Material",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -74,7 +74,7 @@ namespace WebStore.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Materials", x => x.Id);
+                    table.PrimaryKey("PK_Material", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -98,7 +98,8 @@ namespace WebStore.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Username = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Password = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Password = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Phone_number = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -113,6 +114,9 @@ namespace WebStore.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Material_Id = table.Column<int>(type: "int", nullable: false),
+                    price = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Status = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Gender_Id = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
@@ -125,9 +129,9 @@ namespace WebStore.Migrations
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Product_Materials_Material_Id",
+                        name: "FK_Product_Material_Material_Id",
                         column: x => x.Material_Id,
-                        principalTable: "Materials",
+                        principalTable: "Material",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -162,6 +166,8 @@ namespace WebStore.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     User_Id = table.Column<int>(type: "int", nullable: false),
                     Shipping_Id = table.Column<int>(type: "int", nullable: false),
+                    total_amount = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    status = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Date = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
@@ -226,8 +232,8 @@ namespace WebStore.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Url = table.Column<byte[]>(type: "varbinary(max)", nullable: false),
-                    Variant_Id = table.Column<int>(type: "int", nullable: false)
+                    Url = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Variant_Id = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -236,8 +242,7 @@ namespace WebStore.Migrations
                         name: "FK_Image_Variant_Variant_Id",
                         column: x => x.Variant_Id,
                         principalTable: "Variant",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "Id");
                 });
 
             migrationBuilder.CreateTable(
@@ -247,7 +252,8 @@ namespace WebStore.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Variant_Id = table.Column<int>(type: "int", nullable: false),
-                    Quantity = table.Column<int>(type: "int", nullable: false)
+                    Quantity = table.Column<int>(type: "int", nullable: false),
+                    Min_quantity = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -267,7 +273,9 @@ namespace WebStore.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Order_Id = table.Column<int>(type: "int", nullable: false),
-                    Inventory_Id = table.Column<int>(type: "int", nullable: false)
+                    Inventory_Id = table.Column<int>(type: "int", nullable: false),
+                    Nameitem = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    status = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -396,7 +404,7 @@ namespace WebStore.Migrations
                 name: "Gender");
 
             migrationBuilder.DropTable(
-                name: "Materials");
+                name: "Material");
         }
     }
 }

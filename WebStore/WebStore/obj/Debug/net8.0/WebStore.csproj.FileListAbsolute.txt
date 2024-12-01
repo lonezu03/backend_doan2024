@@ -1440,3 +1440,5 @@ F:\Projec\Github\backend_doan2024\WebStore\WebStore\obj\Debug\net8.0\scopedcss\b
 F:\Projec\Github\backend_doan2024\WebStore\WebStore\obj\Debug\net8.0\WebStore.csproj.Up2Date
 F:\Projec\Github\backend_doan2024\WebStore\WebStore\obj\Debug\net8.0\WebStore.genruntimeconfig.cache
 F:\Projec\Github\backend_doan2024\WebStore\WebStore\obj\Debug\net8.0\ref\WebStore.dll
+F:\Projec\Github\backend_doan2024\WebStore\WebStore\bin\Debug\net8.0\CloudinaryDotNet.dll
+F:\Projec\Github\backend_doan2024\WebStore\WebStore\bin\Debug\net8.0\Newtonsoft.Json.dll
