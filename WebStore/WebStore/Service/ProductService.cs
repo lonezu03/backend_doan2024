@@ -28,11 +28,7 @@ namespace WebStore.Service
             var products = await _productRepository.GetAllAsync();
             return _mapper.Map<IEnumerable<ProductDto>>(products);
         }
-        public async Task<ProductDto> GetProductByIdAsync(int id)
-        {
-            var product = await _productRepository.GetByIdAsync(id);
-            return _mapper.Map<ProductDto>(product);
-        }
+       
         public async Task CreateProductAsync(ProductDto productDto)
         {
             var product = _mapper.Map<Product>(productDto);
@@ -47,6 +43,7 @@ namespace WebStore.Service
         {
             await _productRepository.DeleteByIdAsync(id);
         }
+
         public async Task<IEnumerable<object>> GetAllProductsWithVariantsAsync()
         {
             var products = await _productRepository.GetAllWithVariantsAsync();
@@ -55,6 +52,7 @@ namespace WebStore.Service
             {
                 id = p.Id,
                 name = p.Name,
+                price=p.price,
                 colors = p.Variants
                     .Select(v => new { id = v.Color.Id, name = v.Color.Name })
                     .Distinct()
@@ -84,6 +82,51 @@ namespace WebStore.Service
                 }).ToList()
             });
         }
+        public async Task<object> GetProductByIdAsync(int id)
+        {
+            // Lấy sản phẩm theo ID
+            var product = await _productRepository.GetByIdAsync(id);
+
+            // Kiểm tra nếu sản phẩm không tồn tại
+            if (product == null)
+            {
+                return null;
+            }
+
+            return new
+            {
+                id = product.Id,
+                name = product.Name,
+                price = product.price,
+                colors = product.Variants
+                    .Select(v => new { id = v.Color.Id, name = v.Color.Name })
+                    .Distinct()
+                    .ToList(),
+                sizes = product.Variants
+                    .Select(v => new { id = v.Size.Id, name = v.Size.Name })
+                    .Distinct()
+                    .ToList(),
+                images = product.Variants
+                    .SelectMany(v => v.Images)
+                    .Select(i => new { id = i.Id, url = i.Url })
+                    .Distinct()
+                    .ToList(),
+                description = product.Variants
+                    .Select(v => v.Description)
+                    .Distinct()
+                    .Select(d => new { id = d.Id, title = d.Title, content = d.Content })
+                    .FirstOrDefault(),
+                variants = product.Variants.Select(v => new
+                {
+                    id = v.Id,
+                    color_id = v.Color_Id,
+                    size_id = v.Size_Id,
+                    description_id = v.Description_Id,
+                    category_id = v.Category_Id
+                }).ToList()
+            };
+        }
+
 
     }
 

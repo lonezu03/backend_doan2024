@@ -8,6 +8,8 @@ namespace WebStore.Entity
         public int Id { get; set; }
         public int User_Id { get; set; }
         public int Shipping_Id { get; set; }
+        public decimal total_amount { get; set; }
+        public string status { get; set; }
         public DateTime Date { get; set; }
 
         public Users Users { get; set; }

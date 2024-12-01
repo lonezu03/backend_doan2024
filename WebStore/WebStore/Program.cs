@@ -12,6 +12,7 @@ using Microsoft.IdentityModel.Tokens;
 using WebStore.Helpers;
 using AutoMapper;
 using WebStore.Repository.Interface;
+using CloudinaryDotNet;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -29,6 +30,7 @@ builder.Services.AddSwaggerGen();
 
 // token
 // Đọc cấu hình JWT từ appsettings.json
+var cloudinarySettings = builder.Configuration.GetSection("CloudinarySettings").Get<CloudinarySettings>();
 var jwtConfig = builder.Configuration.GetSection("Jwt");
 var key = Encoding.UTF8.GetBytes(jwtConfig["Key"]);
 
@@ -117,8 +119,13 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
         builder.Configuration.GetConnectionString("DefaultConnection"),
         b => b.MigrationsAssembly("WebStore") // Tên của dự án chứa migration
     ));
-var app = builder.Build();
 
+builder.Services.AddSingleton(new Cloudinary(new Account(
+    cloudinarySettings.CloudName,
+    cloudinarySettings.ApiKey,
+    cloudinarySettings.ApiSecret
+)));
+var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {

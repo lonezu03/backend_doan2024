@@ -1,6 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using CloudinaryDotNet.Actions;
+using CloudinaryDotNet;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using WebStore.DTO;
 using WebStore.Service.IService;
+using WebStore.Context;
+using WebStore.Entity;
 
 namespace WebStore.Controllers
 {
@@ -9,10 +14,16 @@ namespace WebStore.Controllers
     public class ImageController : ControllerBase
     {
         private readonly IImageService _imageService;
+        private readonly ApplicationDbContext _dbContext;
+        private readonly ILogger<ImageController> _logger;
 
-        public ImageController(IImageService imageService)
+        public ImageController(IImageService imageService, Cloudinary cloudinary, ApplicationDbContext dbContext, ILogger<ImageController> logger)
         {
             _imageService = imageService;
+            _cloudinary = cloudinary;
+            _dbContext = dbContext;
+            _logger = logger;
+
         }
 
         [HttpGet]
@@ -34,16 +45,12 @@ namespace WebStore.Controllers
                     return NotFound(new { Message = "Image not found" });
                 }
 
-                // Chuyển byte[] sang chuỗi Base64
-                string base64Image = Convert.ToBase64String(image.Url);
-
-                // Loại nội dung, ví dụ: image/jpeg hoặc image/png
-                string contentType = "image/jpeg"; // Hoặc lấy từ metadata nếu cần
+              
 
                 return Ok(new
                 {
-                    ImageData = base64Image,
-                    ContentType = contentType
+                    ImageUrl = image.Url
+
                 });
             }
             catch (Exception ex)
@@ -61,13 +68,56 @@ namespace WebStore.Controllers
             return Ok(image);
         }
 
-        [HttpPost]
-        public async Task<IActionResult> Post([FromBody] ImageDto imageDto)
-        {
-            if (!ModelState.IsValid) return BadRequest(ModelState);
+        private readonly Cloudinary _cloudinary;
 
-            await _imageService.AddAsync(imageDto);
-            return CreatedAtAction(nameof(GetById), new { id = imageDto.Id }, imageDto);
+
+        [HttpPost("upload")]
+        public async Task<IActionResult> UploadImage(IFormFile file, int? variantId)
+        {
+            // Kiểm tra tệp
+            if (file == null || file.Length == 0)
+                return BadRequest("No file uploaded or file is empty");
+
+            string[] allowedExtensions = { ".jpg", ".jpeg", ".png", ".gif" };
+            var fileExtension = Path.GetExtension(file.FileName).ToLower();
+
+            if (!allowedExtensions.Contains(fileExtension))
+                return BadRequest("Unsupported file type");
+
+            // Tải lên Cloudinary
+            var uploadParams = new ImageUploadParams
+            {
+                File = new FileDescription(file.FileName, file.OpenReadStream()),
+                Transformation = new Transformation().Width(500).Height(500).Crop("fill")
+            };
+
+            var uploadResult = await _cloudinary.UploadAsync(uploadParams);
+
+            if (uploadResult.Error != null)
+            {
+                _logger.LogError("Cloudinary upload error: {ErrorMessage}", uploadResult.Error.Message);
+                return BadRequest($"Cloudinary upload failed: {uploadResult.Error.Message}");
+            }
+
+            // Lưu thông tin vào database
+            if (string.IsNullOrEmpty(uploadResult.SecureUrl?.AbsoluteUri))
+                return BadRequest("Invalid image URL from Cloudinary");
+
+            var image = new Image
+            {
+                Url = uploadResult.SecureUrl.AbsoluteUri,
+                Variant_Id = variantId
+            };
+
+            _dbContext.Image.Add(image);
+            await _dbContext.SaveChangesAsync();
+
+            return Ok(new
+            {
+                Message = "Image uploaded successfully",
+                ImageId = image.Id,
+                ImageUrl = image.Url
+            });
         }
 
         [HttpDelete("{id}")]

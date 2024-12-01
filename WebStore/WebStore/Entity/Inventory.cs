@@ -8,7 +8,7 @@ namespace WebStore.Entity
         public int Id { get; set; }
         public int Variant_Id { get; set; }
         public int Quantity { get; set; }
-
+        public int Min_quantity { get; set; }
         public Variant Variant { get; set; }
         public Order_Item Order_Item { get; set; }
     }

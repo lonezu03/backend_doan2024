@@ -132,11 +132,11 @@ namespace WebStore.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<byte[]>("Url")
+                    b.Property<string>("Url")
                         .IsRequired()
-                        .HasColumnType("varbinary(max)");
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Variant_Id")
+                    b.Property<int?>("Variant_Id")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -153,6 +153,9 @@ namespace WebStore.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("Min_quantity")
+                        .HasColumnType("int");
 
                     b.Property<int>("Quantity")
                         .HasColumnType("int");
@@ -181,7 +184,7 @@ namespace WebStore.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Materials");
+                    b.ToTable("Material");
                 });
 
             modelBuilder.Entity("WebStore.Entity.Order_Item", b =>
@@ -195,8 +198,16 @@ namespace WebStore.Migrations
                     b.Property<int>("Inventory_Id")
                         .HasColumnType("int");
 
+                    b.Property<string>("Nameitem")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("Order_Id")
                         .HasColumnType("int");
+
+                    b.Property<string>("status")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
@@ -225,6 +236,13 @@ namespace WebStore.Migrations
                     b.Property<int>("User_Id")
                         .HasColumnType("int");
 
+                    b.Property<string>("status")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("total_amount")
+                        .HasColumnType("decimal(18,2)");
+
                     b.HasKey("Id");
 
                     b.HasIndex("User_Id");
@@ -240,6 +258,10 @@ namespace WebStore.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("Gender_Id")
                         .HasColumnType("int");
 
@@ -249,6 +271,13 @@ namespace WebStore.Migrations
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("price")
+                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 
@@ -289,6 +318,10 @@ namespace WebStore.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Phone_number")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -354,9 +387,7 @@ namespace WebStore.Migrations
                 {
                     b.HasOne("WebStore.Entity.Variant", "Variant")
                         .WithMany("Images")
-                        .HasForeignKey("Variant_Id")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("Variant_Id");
 
                     b.Navigation("Variant");
                 });
