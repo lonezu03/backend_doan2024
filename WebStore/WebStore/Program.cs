@@ -13,6 +13,7 @@ using WebStore.Helpers;
 using AutoMapper;
 using WebStore.Repository.Interface;
 using CloudinaryDotNet;
+using Microsoft.AspNetCore.Http.Features;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -26,6 +27,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.Configure<FormOptions>(options =>
+{
+    options.MultipartBodyLengthLimit = 104857600; // 100 MB
+});
 
 
 // token
@@ -54,6 +59,9 @@ builder.Services.AddAuthentication(options =>
 });
 //token
 //dang ky services
+
+
+
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IProductService, ProductService>();
 
@@ -89,6 +97,7 @@ builder.Services.AddScoped<IOrderItemService, OrderItemService>();
 
 builder.Services.AddScoped<IInventoryRepository, InventoryRepository>();
 builder.Services.AddScoped<IInventoryService,InventoryService >();
+builder.Services.AddHttpContextAccessor();
 
 builder.Services.AddControllers();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>

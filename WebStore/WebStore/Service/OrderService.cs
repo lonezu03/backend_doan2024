@@ -24,7 +24,7 @@ namespace WebStore.Service
             {
                 Id = order.Id,
                 User_Id = order.User_Id,
-                Shipping_Id = order.Shipping_Id,
+               // Shipping_Id = order.Shipping_Id,
                 Date = order.Date,
                // UserName = order.User.Username,
                 //ShippingAddress = null,
@@ -39,9 +39,9 @@ namespace WebStore.Service
             {
                 Id = order.Id,
                 User_Id = order.User_Id,
-                Shipping_Id = order.Shipping_Id,
+                //Shipping_Id = order.Shipping_Id,
                 Date = order.Date,
-               // UserName = order.User.Username,
+                UserName = order.Users.Username,
                // ShippingAddress = null
             };
         }

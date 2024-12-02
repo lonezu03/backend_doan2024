@@ -198,16 +198,18 @@ namespace WebStore.Migrations
                     b.Property<int>("Inventory_Id")
                         .HasColumnType("int");
 
-                    b.Property<string>("Nameitem")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<int>("Order_Id")
+                        .HasColumnType("int");
+
+                    b.Property<int>("quantity")
                         .HasColumnType("int");
 
                     b.Property<string>("status")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("variant_id")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
@@ -229,9 +231,6 @@ namespace WebStore.Migrations
 
                     b.Property<DateTime>("Date")
                         .HasColumnType("datetime2");
-
-                    b.Property<int>("Shipping_Id")
-                        .HasColumnType("int");
 
                     b.Property<int>("User_Id")
                         .HasColumnType("int");

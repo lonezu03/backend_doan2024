@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace WebStore.Migrations
 {
     /// <inheritdoc />
-    public partial class datamigration : Migration
+    public partial class dataMigration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -165,7 +165,6 @@ namespace WebStore.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     User_Id = table.Column<int>(type: "int", nullable: false),
-                    Shipping_Id = table.Column<int>(type: "int", nullable: false),
                     total_amount = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     status = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Date = table.Column<DateTime>(type: "datetime2", nullable: false)
@@ -274,8 +273,9 @@ namespace WebStore.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Order_Id = table.Column<int>(type: "int", nullable: false),
                     Inventory_Id = table.Column<int>(type: "int", nullable: false),
-                    Nameitem = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    status = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    variant_id = table.Column<int>(type: "int", nullable: false),
+                    status = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    quantity = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
