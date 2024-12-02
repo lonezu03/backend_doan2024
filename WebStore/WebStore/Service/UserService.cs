@@ -30,12 +30,13 @@ namespace WebStore.Service
         private readonly IUserRepository _userRepository;
         private readonly IConfiguration _configuration;
         private readonly IMapper _mapper;
-
-        public UserService(IUserRepository userRepository, IConfiguration configuration, IMapper mapper)
+        private readonly IHttpContextAccessor _httpContextAccessor;
+        public UserService(IUserRepository userRepository, IConfiguration configuration, IMapper mapper, IHttpContextAccessor httpContextAccessor)
         {
             _userRepository = userRepository;
             _configuration = configuration;
             _mapper = mapper; // Gán giá trị _mapper
+            _httpContextAccessor = httpContextAccessor;
         }
         public async Task<List<UserDto>> GetAllUsersAsync()
         {
@@ -57,7 +58,7 @@ namespace WebStore.Service
             }
 
             // Tạo token JWT
-            var token = GenerateJwtToken(user.Email);
+            var token = GenerateJwtToken(user);
 
             // Trả về thông tin người dùng kèm token
             return new LoginResponse
@@ -73,7 +74,7 @@ namespace WebStore.Service
             };
         }
 
-        private LoginResponse GenerateJwtToken(string email)
+        private LoginResponse GenerateJwtToken(Users user)
         {
             var jwtConfig = _configuration.GetSection("Jwt");
             var key = Encoding.UTF8.GetBytes(jwtConfig["Key"]);
@@ -81,10 +82,15 @@ namespace WebStore.Service
             // Create claims
             var claims = new[]
             {
-            new Claim(JwtRegisteredClaimNames.Sub, email),
-            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
-            new Claim(ClaimTypes.Name, email)
-        };
+     new Claim(JwtRegisteredClaimNames.Sub, user.Email),
+
+     new Claim("id", user.Id.ToString()),
+     new Claim("name", user.Username),
+     new Claim("created_at", DateTime.UtcNow.ToString("o")),
+
+     new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+     new Claim(ClaimTypes.Name, user.Email)
+ };
 
             // Signing credentials
             var signingKey = new SymmetricSecurityKey(key);
@@ -127,19 +133,41 @@ namespace WebStore.Service
             await _userRepository.AddAsync(user); // Gọi hàm thêm bất đồng bộ
             return true;
         }
-     
 
 
 
 
 
-        //    public async Task<bool> LoginAsync(string email, string password)
-        //    {
-        //        var user = await _userRepository.GetByEmailAsync(email);
-        //        if (user == null)
-        //            return false; // User không tồn tại
+        public int GetCurrentUserId()
+        {
+            // Lấy token từ header Authorization
+            var authHeader = _httpContextAccessor.HttpContext.Request.Headers["Authorization"].ToString();
 
-        //        return BCrypt.Net.BCrypt.Verify(password, user.Password);
-        //    }
+            if (string.IsNullOrEmpty(authHeader) || !authHeader.StartsWith("Bearer "))
+            {
+                throw new Exception("Token is missing or invalid.");
+            }
+
+            var token = authHeader.Substring("Bearer ".Length);
+
+            // Giải mã token
+            var jwtHandler = new JwtSecurityTokenHandler();
+            if (!jwtHandler.CanReadToken(token))
+            {
+                throw new Exception("Invalid token format.");
+            }
+
+            var jwtToken = jwtHandler.ReadJwtToken(token);
+
+            // Lấy user_id từ claim
+            var userIdClaim = jwtToken.Claims.FirstOrDefault(claim => claim.Type == "id");
+            if (userIdClaim == null)
+            {
+                throw new Exception("User ID not found in token.");
+            }
+
+            // Trả về user_id
+            return int.Parse(userIdClaim.Value);
+        }
     }
     }

@@ -15,6 +15,7 @@ namespace WebStore.Service.IService
 
         Task<LoginResponse> LoginAsync(string email, string password);
         Task<bool> UserExists(string email);
+        public int GetCurrentUserId();
 
         Task<List<UserDto>> GetAllUsersAsync();
 

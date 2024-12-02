@@ -436,6 +436,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "WebStore.Controllers.OrderController",
+    "Method": "AddToCart",
+    "RelativePath": "api/order/add-to-cart",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "WebStore.Controllers.OrderController\u002BOrderItemModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebStore.Controllers.OrderItemController",
     "Method": "GetAll",
     "RelativePath": "api/OrderItem",
