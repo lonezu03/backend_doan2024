@@ -53,10 +53,14 @@ namespace WebStore.Service
         }
         public async Task<bool> UpdateOrderAsync(int id, UpdateOrderDto updatedOrder)
         {
+            // Tìm đơn hàng theo ID
             var existingOrder = await _orderRepository.GetOrderByIdAsync(id);
-            if (existingOrder == null) return false;
+            if (existingOrder == null) return false; // Nếu không tồn tại, trả về false
 
+            // Ánh xạ dữ liệu từ DTO vào thực thể Order
             _mapper.Map(updatedOrder, existingOrder);
+
+            // Cập nhật dữ liệu thông qua repository
             return await _orderRepository.UpdateOrderAsync(existingOrder);
         }
         public async Task<bool> DeleteOrderAsync(int id)
