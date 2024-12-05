@@ -1442,3 +1442,5 @@ F:\Projec\Github\backend_doan2024\WebStore\WebStore\obj\Debug\net8.0\WebStore.ge
 F:\Projec\Github\backend_doan2024\WebStore\WebStore\obj\Debug\net8.0\ref\WebStore.dll
 F:\Projec\Github\backend_doan2024\WebStore\WebStore\bin\Debug\net8.0\CloudinaryDotNet.dll
 F:\Projec\Github\backend_doan2024\WebStore\WebStore\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\GITHUB\backend_doan2024\WebStore\WebStore\bin\Debug\net8.0\CloudinaryDotNet.dll
+D:\GITHUB\backend_doan2024\WebStore\WebStore\bin\Debug\net8.0\Newtonsoft.Json.dll

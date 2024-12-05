@@ -27,24 +27,37 @@ namespace WebStore.Repository
                 // Logic để lấy dữ liệu order từ cơ sở dữ liệu
                 return await _context.Orders.FindAsync(orderId);
             }
-        public async Task<Orders> CreateOrderAsync(Orders order)
-            {
-                _context.Orders.Add(order);
-                await _context.SaveChangesAsync();
-                return order;
-            }
+            public async Task<Orders> CreateOrderAsync(Orders order)
+                {
+                    _context.Orders.Add(order);
+                    await _context.SaveChangesAsync();
+                    return order;
+                }
             public async Task<bool> UpdateOrderAsync(Orders order)
             {
-                _context.Orders.Update(order);
-                return await _context.SaveChangesAsync() > 0;
-            }
-            public async Task<bool> DeleteOrderAsync(int id)
-            {
-                var order = await _context.Orders.FindAsync(id);
-                if (order == null) return false;
+                // Kiểm tra nếu order null
+                if (order == null)
+                    throw new ArgumentNullException(nameof(order), "Order cannot be null.");
 
-                _context.Orders.Remove(order);
+                // Kiểm tra sự tồn tại của đơn hàng trong cơ sở dữ liệu
+                var existingOrder = await _context.Orders.AsNoTracking().FirstOrDefaultAsync(o => o.Id == order.Id);
+                if (existingOrder == null)
+                    return false;
+
+                // Cập nhật thông tin đơn hàng
+                _context.Orders.Update(order);
+
+                // Lưu thay đổi
                 return await _context.SaveChangesAsync() > 0;
-            }
-        }
+            }   
+
+            public async Task<bool> DeleteOrderAsync(int id)
+                {
+                    var order = await _context.Orders.FindAsync(id);
+                    if (order == null) return false;
+
+                    _context.Orders.Remove(order);
+                    return await _context.SaveChangesAsync() > 0;
+                }
+            }   
  }
