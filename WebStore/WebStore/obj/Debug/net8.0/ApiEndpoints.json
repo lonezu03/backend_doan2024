@@ -531,6 +531,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "WebStore.Controllers.OrderItemController",
+    "Method": "GetOrderItems",
+    "RelativePath": "api/OrderItem/get-order-items",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ApiWebQuanAo.Web.Controllers.ProductController",
     "Method": "GetProducts",
     "RelativePath": "api/product",

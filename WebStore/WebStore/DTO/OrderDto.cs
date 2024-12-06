@@ -10,6 +10,5 @@
         public DateTime Date { get; set; }
 
         public string? UserName { get; set; }
-        public string? ShippingAddress { get; set; }
     }
 }

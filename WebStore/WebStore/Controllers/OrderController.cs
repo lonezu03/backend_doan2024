@@ -57,6 +57,7 @@ namespace WebStore.Controllers
             try
             {
                 // Giả định: Có thông tin user_id thông qua xác thực
+                
                 int userId = _userService.GetCurrentUserId();
                 if(model.variantid == 0)
                     return StatusCode(500, new { Message = "bang 0 roi ni oi" });
@@ -83,7 +84,13 @@ namespace WebStore.Controllers
 
                 // 3. Kiểm tra sản phẩm trong giỏ hàng
                 var orderItem = await _context.Order_Item
-                    .FirstOrDefaultAsync(oi => oi.Id == order.Id);
+                    .FirstOrDefaultAsync(oi =>
+                            oi.Order_Id == order.Id &&
+                            oi.variant_id == model.variantid &&
+                            oi.name == model.name &&
+                            oi.size == model.size &&
+
+                            oi.color == model.color);
 
                 if (orderItem != null)
                 {
@@ -98,7 +105,13 @@ namespace WebStore.Controllers
                         
                         Order_Id = order.Id,
                         variant_id = model.variantid,
-                        quantity = model.quantity
+                        quantity = model.quantity,
+                        color = model.color,
+                        imagesp = model.image,
+                        size = model.size,
+                        name = model.name,
+                        price = model.price,
+
                     };
                     _context.Order_Item.Add(orderItem);
                 }
@@ -129,6 +142,11 @@ namespace WebStore.Controllers
             public int variantid { get; set; }
             public int quantity { get; set; }
             public decimal price { get; set; }
+            public string? name {  get; set; }
+            public string? image { get; set; }
+            public string? color { get; set; }
+            public string? size { get; set; }
+
         }
     }
 }

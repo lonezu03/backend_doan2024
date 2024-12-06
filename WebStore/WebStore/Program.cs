@@ -100,6 +100,7 @@ builder.Services.AddScoped<IInventoryService,InventoryService >();
 builder.Services.AddHttpContextAccessor();
 
 builder.Services.AddControllers();
+                   
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
