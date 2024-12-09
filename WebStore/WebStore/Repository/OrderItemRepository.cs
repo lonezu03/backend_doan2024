@@ -45,10 +45,26 @@ namespace WebStore.Repository
         }
         public async Task<Order_Item> UpdateAsync(Order_Item orderItem)
         {
-            var entity = _context.Set<Order_Item>().Update(orderItem);
-            await _context.SaveChangesAsync();
-            return entity.Entity;
+            var existingEntity = await _context.Set<Order_Item>().FindAsync(orderItem.Id);
+            if (existingEntity != null)
+            {
+                // Cập nhật từng thuộc tính nếu chúng khác null hoặc có giá trị mới
+                if (orderItem.quantity > 0)
+                    _context.Entry(existingEntity).Property(e => e.quantity).CurrentValue = orderItem.quantity;
+
+                if (!string.IsNullOrWhiteSpace(orderItem.status))
+                    _context.Entry(existingEntity).Property(e => e.status).CurrentValue = orderItem.status;
+
+                // Đánh dấu các trường đã thay đổi
+                _context.Entry(existingEntity).State = EntityState.Modified;
+
+                await _context.SaveChangesAsync();
+                return existingEntity;
+            }
+
+            throw new KeyNotFoundException("Order_Item not found");
         }
+
         public async Task SaveChangesAsync()
         {
             await _context.SaveChangesAsync();
