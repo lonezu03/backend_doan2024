@@ -56,13 +56,22 @@ namespace WebStore.Service
             var orderItem = await _orderItemRepository.GetByIdAsync(orderItemDto.Id);
             if (orderItem != null)
             {
-                orderItem.Order_Id = orderItemDto.OrderId;
-                orderItem.Inventory_Id = orderItemDto.InventoryId;
+                // Chỉ cập nhật các trường có giá trị khác null hoặc giá trị hợp lệ
+                if (orderItemDto.quantity > 0)
+                    orderItem.quantity = orderItemDto.quantity;
 
+                if (!string.IsNullOrWhiteSpace(orderItemDto.status))
+                    orderItem.status = orderItemDto.status;
+
+                // Không thay đổi OrderId, InventoryId nếu không có giá trị mới
                 await _orderItemRepository.UpdateAsync(orderItem);
-                await _orderItemRepository.SaveChangesAsync();
+            }
+            else
+            {
+                throw new KeyNotFoundException("OrderItem not found");
             }
         }
+
 
         public async Task DeleteByIdAsync(int id)
         {
