@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,20 +29,58 @@ namespace WebStore.Service
             var products = await _productRepository.GetAllAsync();
             return _mapper.Map<IEnumerable<ProductDto>>(products);
         }
-       
-        public async Task CreateProductAsync(ProductDto productDto)
+
+        public async Task<Product> CreateProductAsync(ProductDto productDto, string imageUrl)
         {
-            var product = _mapper.Map<Product>(productDto);
+            // Chuyển đổi DTO sang entity
+            var product = new Product
+            {
+                Name = productDto.Name,
+                Material_Id = productDto.Material_Id,
+                Description = productDto.Description,
+                Status = productDto.Status,
+                price = productDto.price,
+                Gender_Id = productDto.Gender_Id,
+                Image = imageUrl // Lưu URL ảnh vào sản phẩm
+            };
+
+            // Thêm sản phẩm vào cơ sở dữ liệu
             await _productRepository.AddAsync(product);
+            await _productRepository.SaveChangesAsync();
+
+            return product;
         }
-        public async Task UpdateProductAsync(ProductDto productDto)
+
+        public async Task UpdateProductAsync(int id, ProductDto productDto, string imageUrl)
         {
-            var product = _mapper.Map<Product>(productDto);
-            await _productRepository.UpdateAsync(product);
+            try
+            {
+                var product = await _productRepository.GetByIdAsync(id);
+
+                product.Name = productDto.Name;
+                product.Material_Id = productDto.Material_Id;
+                product.Description = productDto.Description;
+                product.Status = productDto.Status;
+                product.price = productDto.price;
+                product.Gender_Id = productDto.Gender_Id;
+                product.Image = imageUrl;
+
+                _productRepository.UpdateAsync(product);
+                await _productRepository.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                // Log lỗi ra console hoặc file
+                Console.WriteLine($"Error during SaveChanges: {ex.Message}");
+                throw; // Ném lỗi ra ngoài để Controller xử lý
+            }
+            
         }
+
         public async Task DeleteProductAsync(int id)
         {
             await _productRepository.DeleteByIdAsync(id);
+            await _productRepository.SaveChangesAsync();
         }
 
         public async Task<IEnumerable<object>> GetAllProductsWithVariantsAsync()
@@ -53,6 +92,7 @@ namespace WebStore.Service
                 id = p.Id,
                 name = p.Name,
                 price=p.price,
+                image=p.Image,
                 colors = p.Variants
                     .Select(v => new { id = v.Color.Id, name = v.Color.Name })
                     .Distinct()
@@ -61,11 +101,11 @@ namespace WebStore.Service
                     .Select(v => new { id = v.Size.Id, name = v.Size.Name })
                     .Distinct()
                     .ToList(),
-                images = p.Variants
-                    .SelectMany(v => v.Images)
-                    .Select(i => new { id = i.Id, url = i.Url })
-                    .Distinct()
-                    .ToList(),
+                //images = p.Variants
+                //    .SelectMany(v => v.Images)
+                //    .Select(i => new { id = i.Id, url = i.Url })
+                //    .Distinct()
+                //    .ToList(),
                 description = p.Variants
                     .Select(v => v.Description)
                     .Distinct()
@@ -78,14 +118,32 @@ namespace WebStore.Service
                     color_id = v.Color_Id,
                     size_id = v.Size_Id,
                     description_id = v.Description_Id,
-                    category_id = v.Category_Id
+                    category_id = v.Category_Id,
+                    //image= v.Image
                 }).ToList()
             });
+        }
+        public async Task<ProductDto> GetByIdAsync(int id)
+        {
+            var product = await _productRepository.GetByIdAsync(id);
+            if (product == null) return null;
+
+            return new ProductDto
+            {
+                Id = product.Id,
+                Name = product.Name,
+                Material_Id = product.Material_Id,
+                Description = product.Description,
+                Status = product.Status,
+                price = product.price,
+                Gender_Id = product.Gender_Id,
+                Image = product.Image
+            };
         }
         public async Task<object> GetProductByIdAsync(int id)
         {
             // Lấy sản phẩm theo ID
-            var product = await _productRepository.GetByIdAsync(id);
+            var product = await _productRepository.GetByIdAsyncW(id);
 
             // Kiểm tra nếu sản phẩm không tồn tại
             if (product == null)
@@ -97,6 +155,7 @@ namespace WebStore.Service
             {
                 id = product.Id,
                 name = product.Name,
+                Image = product.Image,
                 price = product.price,
                 colors = product.Variants
                     .Select(v => new { id = v.Color.Id, name = v.Color.Name })
@@ -106,11 +165,7 @@ namespace WebStore.Service
                     .Select(v => new { id = v.Size.Id, name = v.Size.Name })
                     .Distinct()
                     .ToList(),
-                images = product.Variants
-                    .SelectMany(v => v.Images)
-                    .Select(i => new { id = i.Id, url = i.Url })
-                    .Distinct()
-                    .ToList(),
+                
                 description = product.Variants
                     .Select(v => v.Description)
                     .Distinct()
@@ -123,6 +178,7 @@ namespace WebStore.Service
                     size_id = v.Size_Id,
                     description_id = v.Description_Id,
                     category_id = v.Category_Id
+                    
                 }).ToList()
             };
         }

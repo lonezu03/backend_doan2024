@@ -49,6 +49,43 @@ namespace WebStore.Repository
                 _context.Variant.Remove(variant);
             }
         }
+        public async Task<Variant> UpdateAsync(Variant variant)
+        {
+            var existingEntity = await _context.Set<Variant>().FindAsync(variant.Id);
+            if (existingEntity != null)
+            {
+                // Chỉ cập nhật các trường được thay đổi
+                if (variant.Product_Id > 0 && variant.Product_Id != existingEntity.Product_Id)
+                    _context.Entry(existingEntity).Property(e => e.Product_Id).CurrentValue = variant.Product_Id;
+
+                if (variant.Color_Id > 0 && variant.Color_Id != existingEntity.Color_Id)
+                    _context.Entry(existingEntity).Property(e => e.Color_Id).CurrentValue = variant.Color_Id;
+
+                if (variant.Size_Id > 0 && variant.Size_Id != existingEntity.Size_Id)
+                    _context.Entry(existingEntity).Property(e => e.Size_Id).CurrentValue = variant.Size_Id;
+
+                if (variant.Description_Id > 0 && variant.Description_Id != existingEntity.Description_Id)
+                    _context.Entry(existingEntity).Property(e => e.Description_Id).CurrentValue = variant.Description_Id;
+
+                if (variant.Category_Id > 0 && variant.Category_Id != existingEntity.Category_Id)
+                    _context.Entry(existingEntity).Property(e => e.Category_Id).CurrentValue = variant.Category_Id;
+
+                _context.Entry(existingEntity).State = EntityState.Modified;
+                await _context.SaveChangesAsync();
+                return existingEntity;
+            }
+            throw new KeyNotFoundException("variant not found");
+
+        }
+        public async Task<IEnumerable<Variant>> GetByProductIdAsync(int productId)
+        {
+            return await _context.Variant.Where(v => v.Product_Id == productId).ToListAsync();
+        }
+
+        public async Task DeleteRangeAsync(IEnumerable<Variant> variants)
+        {
+            _context.Variant.RemoveRange(variants);
+        }
 
         public async Task SaveChangesAsync()
         {

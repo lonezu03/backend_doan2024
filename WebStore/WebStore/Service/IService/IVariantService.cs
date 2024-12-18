@@ -9,6 +9,8 @@ namespace WebStore.Service.IService
         Task<VariantDto> GetByIdAsync(int id);
         Task AddAsync(VariantDto variant);
         Task DeleteByIdAsync(int id);
+        Task UpdateVariantAsync(VariantDto variantDto);
+        Task DeleteByProductIdAsync(int productId);
     }
 
 }

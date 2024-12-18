@@ -8,5 +8,6 @@
         public int? Size_Id { get; set; }
         public int? Description_Id { get; set; }
         public int? Category_Id { get; set; }
+        public string? Image { get; set; }
     }
 }

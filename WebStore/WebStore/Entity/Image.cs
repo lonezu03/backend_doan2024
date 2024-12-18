@@ -9,7 +9,6 @@ namespace WebStore.Entity
         public string Url { get; set; }
         public int? Variant_Id { get; set; }
 
-        public Variant Variant { get; set; }
 
     }
 }
