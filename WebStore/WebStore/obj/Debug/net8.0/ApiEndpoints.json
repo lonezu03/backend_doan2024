@@ -206,69 +206,6 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebStore.Controllers.ImageController",
-    "Method": "GetAll",
-    "RelativePath": "api/image",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebStore.Controllers.ImageController",
-    "Method": "GetImage",
-    "RelativePath": "api/image/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebStore.Controllers.ImageController",
-    "Method": "DeleteById",
-    "RelativePath": "api/image/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebStore.Controllers.ImageController",
-    "Method": "UploadImage",
-    "RelativePath": "api/image/upload",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "file",
-        "Type": "Microsoft.AspNetCore.Http.IFormFile",
-        "IsRequired": false
-      },
-      {
-        "Name": "variantId",
-        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "WebStore.Controllers.InventoryController",
     "Method": "GetAll",
     "RelativePath": "api/Inventory",
@@ -531,6 +468,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "WebStore.Controllers.OrderItemController",
+    "Method": "GetOrderItems",
+    "RelativePath": "api/OrderItem/get-order-items",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ApiWebQuanAo.Web.Controllers.ProductController",
     "Method": "GetProducts",
     "RelativePath": "api/product",
@@ -559,9 +506,49 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "productDto",
-        "Type": "WebStore.DTO.ProductDto",
-        "IsRequired": true
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Material_Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "price",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Gender_Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Image",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "imageFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -606,9 +593,49 @@
         "IsRequired": true
       },
       {
-        "Name": "productDto",
-        "Type": "WebStore.DTO.ProductDto",
-        "IsRequired": true
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Material_Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "price",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Gender_Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Image",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "imageFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -777,6 +804,27 @@
   },
   {
     "ContainingType": "WebStore.Controllers.VariantController",
+    "Method": "UpdateVariant",
+    "RelativePath": "api/variant/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "variantDto",
+        "Type": "WebStore.DTO.VariantDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebStore.Controllers.VariantController",
     "Method": "GetById",
     "RelativePath": "api/variant/{id}",
     "HttpMethod": "GET",
@@ -808,15 +856,15 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebStore.Controllers.ImageController",
-    "Method": "GetById",
-    "RelativePath": "id/{id}",
-    "HttpMethod": "GET",
+    "ContainingType": "WebStore.Controllers.VariantController",
+    "Method": "DeleteVariantsByProduct",
+    "RelativePath": "api/variant/deleteByProduct/{productId}",
+    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
+        "Name": "productId",
         "Type": "System.Int32",
         "IsRequired": true
       }

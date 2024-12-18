@@ -12,10 +12,12 @@ namespace WebStore.Service.IService
     {
         Task<IEnumerable<ProductDto>> GetAllProductsAsync();
         Task<object> GetProductByIdAsync(int id);
-        Task CreateProductAsync(ProductDto productDto);
-        Task UpdateProductAsync(ProductDto productDto);
+        Task<Product> CreateProductAsync(ProductDto productDto, string imageUrl);
+        Task UpdateProductAsync(int id, ProductDto productDto, string imageUrl);
         Task DeleteProductAsync(int id);
-        
+        Task<ProductDto> GetByIdAsync(int id);
+
+
         Task<IEnumerable<object>> GetAllProductsWithVariantsAsync();
     }
 

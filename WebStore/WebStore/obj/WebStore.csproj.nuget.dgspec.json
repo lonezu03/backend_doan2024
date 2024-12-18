@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GITHUB\\backend_doan2024\\WebStore\\WebStore\\WebStore.csproj": {}
+    "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\WebStore.csproj": {}
   },
   "projects": {
-    "D:\\GITHUB\\backend_doan2024\\WebStore\\WebStore\\WebStore.csproj": {
+    "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\WebStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GITHUB\\backend_doan2024\\WebStore\\WebStore\\WebStore.csproj",
+        "projectUniqueName": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\WebStore.csproj",
         "projectName": "WebStore",
-        "projectPath": "D:\\GITHUB\\backend_doan2024\\WebStore\\WebStore\\WebStore.csproj",
+        "projectPath": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\WebStore.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\GITHUB\\backend_doan2024\\WebStore\\WebStore\\obj\\",
+        "outputPath": "F:\\Projec\\Github\\backend_doan2024\\WebStore\\WebStore\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,6 +35,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -114,7 +116,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

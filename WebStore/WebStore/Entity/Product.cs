@@ -19,6 +19,8 @@ namespace WebStore.Entity
         public string Description { get; set; }
         public string Status { get; set; }
         public int Gender_Id { get; set; }
+        public string? Image { get; set; }
+
 
         public Material Material { get; set; }
         public Gender Gender { get; set; }

@@ -82,10 +82,7 @@ namespace WebStore.Context
                 .HasForeignKey(v => v.Description_Id);
 
             // Variant - Image (1-nhiều)
-            modelBuilder.Entity<Variant>()
-                .HasMany(v => v.Images)
-                .WithOne(i => i.Variant)
-                .HasForeignKey(i => i.Variant_Id);
+           
             // User - orders (1-nhiều)
             modelBuilder.Entity<Users>()
                 .HasMany(v => v.orders)

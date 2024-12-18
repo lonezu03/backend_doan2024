@@ -65,6 +65,7 @@ namespace WebStore.Service
 
                 // Không thay đổi OrderId, InventoryId nếu không có giá trị mới
                 await _orderItemRepository.UpdateAsync(orderItem);
+                await _orderItemRepository.SaveChangesAsync();
             }
             else
             {

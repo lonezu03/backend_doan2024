@@ -25,7 +25,8 @@ namespace WebStore.Service
                 Color_Id = v.Color_Id,
                 Size_Id = v.Size_Id,
                 Description_Id = v.Description_Id,
-                Category_Id = v.Category_Id
+                Category_Id = v.Category_Id,
+                Image = v.Image
             }).ToList();
         }
 
@@ -68,5 +69,46 @@ namespace WebStore.Service
             await _variantRepository.DeleteByIdAsync(id);
             await _variantRepository.SaveChangesAsync();
         }
+        // Cập nhật Variant
+
+        public async Task UpdateVariantAsync(VariantDto variantDto)
+        {
+            var variant = await _variantRepository.GetByIdAsync(variantDto.Id);
+            if (variant == null)
+            {
+                throw new KeyNotFoundException("Variant not found");
+            }
+
+            // Chỉ cập nhật các thuộc tính có giá trị khác null hoặc khác giá trị hiện tại
+            if (variantDto.Product_Id > 0 && variantDto.Product_Id != variant.Product_Id)
+                variant.Product_Id = variantDto.Product_Id;
+
+            if (variantDto.Color_Id>0 && variantDto.Color_Id != variant.Color_Id)
+                variant.Color_Id = variantDto.Color_Id.Value;
+
+            if (variantDto.Size_Id>0 && variantDto.Size_Id != variant.Size_Id)
+                variant.Size_Id = variantDto.Size_Id.Value;
+
+            if (variantDto.Description_Id>0 && variantDto.Description_Id != variant.Description_Id)
+                variant.Description_Id = variantDto.Description_Id.Value;
+
+            if (variantDto.Category_Id>0 && variantDto.Category_Id != variant.Category_Id)
+                variant.Category_Id = variantDto.Category_Id.Value;
+
+            // Gửi thực thể đã cập nhật vào repository
+            await _variantRepository.UpdateAsync(variant);
+            await _variantRepository.SaveChangesAsync();
+        }
+        public async Task DeleteByProductIdAsync(int productId)
+        {
+            var variants = await _variantRepository.GetByProductIdAsync(productId);
+            if (variants.Any())
+            {
+                await _variantRepository.DeleteRangeAsync(variants);
+                await _variantRepository.SaveChangesAsync();
+            }
+        }
+
+
     }
 }

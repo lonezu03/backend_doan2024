@@ -26,15 +26,15 @@ namespace WebStore.Reposiroty
                 .Include(p => p.Variants)
                 .ToListAsync();
         }
-        //public async Task<Product> GetByIdAsync(int id)
-        //{
-        //    return await _context.Product
-        //        .Include(p => p.Material)
-        //        .Include(p => p.Gender)
-        //        .Include(p => p.Variants)
-        //        .FirstOrDefaultAsync(p => p.Id == id);
-        //}
         public async Task<Product> GetByIdAsync(int id)
+        {
+            return await _context.Product
+                .Include(p => p.Material)
+                .Include(p => p.Gender)
+                .Include(p => p.Variants)
+                .FirstOrDefaultAsync(p => p.Id == id);
+        }
+        public async Task<Product> GetByIdAsyncW(int id)
         {
             return await _context.Product
                  .Include(p => p.Variants)
@@ -45,19 +45,48 @@ namespace WebStore.Reposiroty
                     .ThenInclude(v => v.Description)
                 .Include(p => p.Variants)
                     .ThenInclude(v => v.Category)
-                .Include(p => p.Variants)
-                    .ThenInclude(v => v.Images)
+                
                 .FirstOrDefaultAsync(p => p.Id == id);
         }
         public async Task AddAsync(Product product)
         {
             await _context.Product.AddAsync(product);
+
         }
 
-        public async Task UpdateAsync(Product product)
+        public async Task<Product> UpdateAsync(Product product)
         {
-            _context.Product.Update(product);
+            var existingEntity = await _context.Product.FindAsync(product.Id);
+            if (existingEntity != null)
+            {
+                // Chỉ cập nhật các trường nếu giá trị mới khác giá trị hiện tại
+                if (!string.IsNullOrWhiteSpace(product.Name) && product.Name != existingEntity.Name)
+                    _context.Entry(existingEntity).Property(e => e.Name).CurrentValue = product.Name;
+
+                if (!string.IsNullOrWhiteSpace(product.Description) && product.Description != existingEntity.Description)
+                    _context.Entry(existingEntity).Property(e => e.Description).CurrentValue = product.Description;
+
+                if (!string.IsNullOrWhiteSpace(product.Status) && product.Status != existingEntity.Status)
+                    _context.Entry(existingEntity).Property(e => e.Status).CurrentValue = product.Status;
+                if (product.price > 0 && product.price != existingEntity.price)
+                    _context.Entry(existingEntity).Property(e => e.price).CurrentValue = product.price;
+                if (product.Gender_Id > 0 && product.Gender_Id != existingEntity.Gender_Id)
+                    _context.Entry(existingEntity).Property(e => e.Gender_Id).CurrentValue = product.Gender_Id;
+
+                if (product.Material_Id > 0 && product.Material_Id != existingEntity.Material_Id)
+                    _context.Entry(existingEntity).Property(e => e.Material_Id).CurrentValue = product.Material_Id;
+
+
+                // Đánh dấu thực thể là đã chỉnh sửa
+                _context.Entry(existingEntity).State = EntityState.Modified;
+
+                await _context.SaveChangesAsync();
+                return existingEntity;
+            }
+
+            throw new KeyNotFoundException("Product not found");
         }
+
 
         public async Task DeleteByIdAsync(int id)
         {
@@ -75,6 +104,7 @@ namespace WebStore.Reposiroty
         public async Task<List<Product>> GetAllWithVariantsAsync()
         {
             return await _context.Product
+                //.Include(p=>p.Variants)
                 .Include(p => p.Variants)
                     .ThenInclude(v => v.Color)
                 .Include(p => p.Variants)
@@ -83,8 +113,7 @@ namespace WebStore.Reposiroty
                     .ThenInclude(v => v.Description)
                 .Include(p => p.Variants)
                     .ThenInclude(v => v.Category)
-                .Include(p => p.Variants)
-                    .ThenInclude(v => v.Images)
+                
                 .ToListAsync();
         }
 
