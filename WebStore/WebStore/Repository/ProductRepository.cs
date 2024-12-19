@@ -26,6 +26,11 @@ namespace WebStore.Reposiroty
                 .Include(p => p.Variants)
                 .ToListAsync();
         }
+        public async Task<Product> GetProductByNameAsync(string name)
+        {
+            return await _context.Product
+                .FirstOrDefaultAsync(p => p.Name.ToLower() == name.ToLower());
+        }
         public async Task<Product> GetByIdAsync(int id)
         {
             return await _context.Product

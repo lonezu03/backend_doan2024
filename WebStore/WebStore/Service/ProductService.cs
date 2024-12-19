@@ -51,6 +51,10 @@ namespace WebStore.Service
 
             return product;
         }
+        public async Task<Product> GetProductByNameAsync(string name)
+        {
+            return await _productRepository.GetProductByNameAsync(name);
+        }
 
         public async Task UpdateProductAsync(int id, ProductDto productDto, string imageUrl)
         {
@@ -87,6 +91,8 @@ namespace WebStore.Service
             }
             
         }
+      
+
 
         public async Task DeleteProductAsync(int id)
         {
