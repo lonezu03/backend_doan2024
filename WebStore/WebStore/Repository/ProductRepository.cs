@@ -63,7 +63,7 @@ namespace WebStore.Reposiroty
                 if (!string.IsNullOrWhiteSpace(product.Name) && product.Name != existingEntity.Name)
                     _context.Entry(existingEntity).Property(e => e.Name).CurrentValue = product.Name;
 
-                if (!string.IsNullOrWhiteSpace(product.Description) && product.Description != existingEntity.Description)
+                if (!string.IsNullOrWhiteSpace(product.Description) && product.Description != existingEntity.Description && product.Description != null)
                     _context.Entry(existingEntity).Property(e => e.Description).CurrentValue = product.Description;
 
                 if (!string.IsNullOrWhiteSpace(product.Status) && product.Status != existingEntity.Status)
@@ -73,7 +73,7 @@ namespace WebStore.Reposiroty
                 if (product.Gender_Id > 0 && product.Gender_Id != existingEntity.Gender_Id)
                     _context.Entry(existingEntity).Property(e => e.Gender_Id).CurrentValue = product.Gender_Id;
 
-                if (product.Material_Id > 0 && product.Material_Id != existingEntity.Material_Id)
+                if (product.Material_Id > 0 && product.Material_Id != existingEntity.Material_Id && product.Material_Id!=null )
                     _context.Entry(existingEntity).Property(e => e.Material_Id).CurrentValue = product.Material_Id;
 
 
