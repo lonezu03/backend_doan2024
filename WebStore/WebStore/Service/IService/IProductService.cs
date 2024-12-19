@@ -16,6 +16,7 @@ namespace WebStore.Service.IService
         Task UpdateProductAsync(int id, ProductDto productDto, string imageUrl);
         Task DeleteProductAsync(int id);
         Task<ProductDto> GetByIdAsync(int id);
+        Task<Product> GetProductByNameAsync(string name);
 
 
         Task<IEnumerable<object>> GetAllProductsWithVariantsAsync();

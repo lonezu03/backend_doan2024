@@ -49,7 +49,14 @@ namespace ApiWebQuanAo.Web.Controllers
         {
             try
             {
-                // Kiểm tra tệp ảnh (nếu có)
+                // Kiểm tra tên sản phẩm có trùng lặp không
+                var existingProduct = await _productService.GetProductByNameAsync(productDto.Name);
+                if (existingProduct != null)
+                {
+                    return BadRequest(new { Message = "Product name already exists." });
+                }
+
+                // Tiếp tục xử lý logic tải ảnh và tạo sản phẩm như trước
                 string imageUrl = null;
                 if (imageFile != null && imageFile.Length > 0)
                 {
@@ -59,7 +66,6 @@ namespace ApiWebQuanAo.Web.Controllers
                     if (!allowedExtensions.Contains(fileExtension))
                         return BadRequest("Unsupported file type");
 
-                    // Tải ảnh lên Cloudinary
                     var uploadParams = new ImageUploadParams
                     {
                         File = new FileDescription(imageFile.FileName, imageFile.OpenReadStream()),
@@ -77,9 +83,7 @@ namespace ApiWebQuanAo.Web.Controllers
                     imageUrl = uploadResult.SecureUrl.AbsoluteUri;
                 }
 
-                // Tạo sản phẩm
                 var createdProduct = await _productService.CreateProductAsync(productDto, imageUrl);
-
                 return CreatedAtAction(nameof(GetProduct), new { id = createdProduct.Id }, createdProduct);
             }
             catch (Exception ex)
@@ -88,6 +92,7 @@ namespace ApiWebQuanAo.Web.Controllers
                 return StatusCode(500, new { Message = ex.Message });
             }
         }
+
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateProduct(int id, [FromForm] ProductDto productDto, IFormFile? imageFile)
         {
