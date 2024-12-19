@@ -89,16 +89,19 @@ namespace ApiWebQuanAo.Web.Controllers
             }
         }
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateProduct(int id, [FromForm] ProductDto productDto, IFormFile imageFile)
+        public async Task<IActionResult> UpdateProduct(int id, [FromForm] ProductDto productDto, IFormFile? imageFile)
         {
             try
             {
                 // Kiểm tra sản phẩm
                 var product = await _productService.GetByIdAsync(id);
-                if (product == null) return NotFound("Product not found");
+                if (product == null)
+                    return NotFound("Product not found");
 
-                // Xử lý ảnh nếu có
-                string imageUrl = product.Image; // Giữ ảnh cũ nếu không upload ảnh mới
+                // Khởi tạo URL ảnh bằng ảnh hiện có (giữ nguyên nếu không upload ảnh mới)
+                string imageUrl = product.Image;
+
+                // Nếu ảnh được gửi từ frontend
                 if (imageFile != null && imageFile.Length > 0)
                 {
                     string[] allowedExtensions = { ".jpg", ".jpeg", ".png", ".gif" };
@@ -122,17 +125,19 @@ namespace ApiWebQuanAo.Web.Controllers
                         return BadRequest($"Cloudinary upload failed: {uploadResult.Error.Message}");
                     }
 
+                    // Cập nhật URL ảnh mới nếu upload thành công
                     imageUrl = uploadResult.SecureUrl.AbsoluteUri;
-                    //return StatusCode(500, new { Message = imageUrl });
                 }
 
-                // Cập nhật sản phẩm
+                // Cập nhật sản phẩm với dữ liệu mới từ frontend
                 await _productService.UpdateProductAsync(id, productDto, imageUrl);
 
-                return NoContent();
+                // Trả về thông báo thành công
+                return Ok(new { Message = "Product updated successfully", ProductId = id });
             }
             catch (Exception ex)
             {
+                // Ghi log lỗi và trả về thông báo lỗi
                 _logger.LogError("Error updating product: {Error}", ex.Message);
                 return StatusCode(500, new { Message = ex.Message });
             }

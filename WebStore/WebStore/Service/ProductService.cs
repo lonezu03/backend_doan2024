@@ -33,6 +33,7 @@ namespace WebStore.Service
         public async Task<Product> CreateProductAsync(ProductDto productDto, string imageUrl)
         {
             // Chuyển đổi DTO sang entity
+            
             var product = new Product
             {
                 Name = productDto.Name,
@@ -55,17 +56,27 @@ namespace WebStore.Service
         {
             try
             {
-                var product = await _productRepository.GetByIdAsync(id);
+                var product = await _productRepository.GetByIdAsync(productDto.Id);
+                if (product != null)
+                {
+                    if (!string.IsNullOrWhiteSpace(productDto.Name))
+                        product.Name = productDto.Name;
+                    if (productDto.Material_Id != 0 && productDto.Material_Id != null)
+                        product.Material_Id = productDto.Material_Id;
+                    if (!string.IsNullOrWhiteSpace(productDto.Description))
+                        product.Description = productDto.Description;
+                    if (!string.IsNullOrWhiteSpace(productDto.Status))
+                        product.Status = productDto.Status;
+                    if (productDto.price != 0)
+                        product.price = productDto.price;
+                    if (productDto.price != 0 && productDto.price != null)
+                        product.Gender_Id = productDto.Gender_Id;
+                    if (imageUrl!=null)
+                        product.Image = imageUrl; // Lưu URL ảnh vào sản phẩm
+                };
 
-                product.Name = productDto.Name;
-                product.Material_Id = productDto.Material_Id;
-                product.Description = productDto.Description;
-                product.Status = productDto.Status;
-                product.price = productDto.price;
-                product.Gender_Id = productDto.Gender_Id;
-                product.Image = imageUrl;
 
-                _productRepository.UpdateAsync(product);
+                await _productRepository.UpdateAsync(product);
                 await _productRepository.SaveChangesAsync();
             }
             catch (Exception ex)
@@ -93,6 +104,10 @@ namespace WebStore.Service
                 name = p.Name,
                 price=p.price,
                 image=p.Image,
+                description = p.Description,
+                Material =p.Material_Id,
+                gender=p.Gender_Id,
+
                 colors = p.Variants
                     .Select(v => new { id = v.Color.Id, name = v.Color.Name })
                     .Distinct()
@@ -106,11 +121,16 @@ namespace WebStore.Service
                 //    .Select(i => new { id = i.Id, url = i.Url })
                 //    .Distinct()
                 //    .ToList(),
-                description = p.Variants
-                    .Select(v => v.Description)
-                    .Distinct()
-                    .Select(d => new { id = d.Id, title = d.Title, content = d.Content })
+                //description = p.Variants
+                //    .Select(v => v.Description)
+                //    .Distinct()
+                //    .Select(d => new { id = d.Id, title = d.Title, content = d.Content })
 
+                //    .FirstOrDefault(),
+                category=p.Variants
+                     .Select(v => v.Category)
+                    .Distinct()
+                    .Select(d => new { id = d.Id, name = d.Name})
                     .FirstOrDefault(),
                 variants = p.Variants.Select(v => new
                 {
@@ -156,6 +176,9 @@ namespace WebStore.Service
                 id = product.Id,
                 name = product.Name,
                 Image = product.Image,
+                Material = product.Material_Id,
+                description=product.Description,
+                Gender = product.Gender_Id,
                 price = product.price,
                 colors = product.Variants
                     .Select(v => new { id = v.Color.Id, name = v.Color.Name })
@@ -166,11 +189,11 @@ namespace WebStore.Service
                     .Distinct()
                     .ToList(),
                 
-                description = product.Variants
-                    .Select(v => v.Description)
-                    .Distinct()
-                    .Select(d => new { id = d.Id, title = d.Title, content = d.Content })
-                    .FirstOrDefault(),
+                //description = product.Variants
+                //    .Select(v => v.Description)
+                //    .Distinct()
+                //    .Select(d => new { id = d.Id, title = d.Title, content = d.Content })
+                //    .FirstOrDefault(),
                 variants = product.Variants.Select(v => new
                 {
                     id = v.Id,
