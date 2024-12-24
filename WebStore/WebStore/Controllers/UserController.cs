@@ -39,7 +39,7 @@ namespace ApiWebQuanAo.Web.Controllers
             var response = await _userService.LoginAsync(request.Email, request.Password);
 
             if (response == null)
-                return Unauthorized(new { message = "Invalid credentials" });
+                return BadRequest("Sai tài khoản hoặc mật khẩu.");
 
             return Ok(response);
         }

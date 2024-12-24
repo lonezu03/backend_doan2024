@@ -521,6 +521,11 @@
         "IsRequired": false
       },
       {
+        "Name": "price",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
         "Name": "Description",
         "Type": "System.String",
         "IsRequired": false
@@ -528,11 +533,6 @@
       {
         "Name": "Status",
         "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "price",
-        "Type": "System.Decimal",
         "IsRequired": false
       },
       {
@@ -608,6 +608,11 @@
         "IsRequired": false
       },
       {
+        "Name": "price",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
         "Name": "Description",
         "Type": "System.String",
         "IsRequired": false
@@ -615,11 +620,6 @@
       {
         "Name": "Status",
         "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "price",
-        "Type": "System.Decimal",
         "IsRequired": false
       },
       {

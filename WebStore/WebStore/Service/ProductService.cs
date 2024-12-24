@@ -113,7 +113,11 @@ namespace WebStore.Service
                 description = p.Description,
                 Material =p.Material_Id,
                 gender=p.Gender_Id,
-
+                gendero = new
+                {
+                    id = p.Gender.Id,
+                    name = p.Gender.Name,
+                },
                 colors = p.Variants
                     .Select(v => new { id = v.Color.Id, name = v.Color.Name })
                     .Distinct()
