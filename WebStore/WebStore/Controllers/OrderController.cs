@@ -130,7 +130,7 @@ namespace WebStore.Controllers
                         oi.quantity
                     }).ToListAsync();
 
-                return Ok(new { CartItems = cartItems });
+                return Ok(model);
             }
             catch (Exception ex)
             {

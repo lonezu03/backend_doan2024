@@ -109,6 +109,7 @@ namespace WebStore.Reposiroty
         public async Task<List<Product>> GetAllWithVariantsAsync()
         {
             return await _context.Product
+                .Include(p => p.Gender)
                 //.Include(p=>p.Variants)
                 .Include(p => p.Variants)
                     .ThenInclude(v => v.Color)
