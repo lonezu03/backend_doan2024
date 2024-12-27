@@ -83,17 +83,17 @@ namespace WebStore.Service
             if (variantDto.Product_Id > 0 && variantDto.Product_Id != variant.Product_Id)
                 variant.Product_Id = variantDto.Product_Id;
 
-            if (variantDto.Color_Id>0 && variantDto.Color_Id != variant.Color_Id)
-                variant.Color_Id = variantDto.Color_Id.Value;
+            //if (variantDto.Color_Id>0 && variantDto.Color_Id != variant.Color_Id)
+            //    variant.Color_Id = variantDto.Color_Id.Value;
 
-            if (variantDto.Size_Id>0 && variantDto.Size_Id != variant.Size_Id)
-                variant.Size_Id = variantDto.Size_Id.Value;
+            //if (variantDto.Size_Id>0 && variantDto.Size_Id != variant.Size_Id)
+            //    variant.Size_Id = variantDto.Size_Id.Value;
 
             if (variantDto.Description_Id>0 && variantDto.Description_Id != variant.Description_Id)
                 variant.Description_Id = variantDto.Description_Id.Value;
 
-            if (variantDto.Category_Id>0 && variantDto.Category_Id != variant.Category_Id)
-                variant.Category_Id = variantDto.Category_Id.Value;
+            //if (variantDto.Category_Id>0 && variantDto.Category_Id != variant.Category_Id)
+            //    variant.Category_Id = variantDto.Category_Id.Value;
 
             // Gửi thực thể đã cập nhật vào repository
             await _variantRepository.UpdateAsync(variant);
